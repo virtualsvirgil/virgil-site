@@ -12,7 +12,7 @@
   "ab_count": 0,
   "cleared_c": 10,
   "cleared_a": 0,
-  "graded_24h": 230,
+  "graded_24h": 229,
   "recent": [
     {
       "symbol": "XTRUTH",
@@ -102,7 +102,7 @@
   "sixtyday_count": 6,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-19T18:56:26.230041+00:00",
+  "generated_at": "2026-06-19T19:08:55.998998+00:00",
   "specimen": {
     "vid": 88852,
     "name": "OrbisAPI",
