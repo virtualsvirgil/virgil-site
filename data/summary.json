@@ -1,0 +1,34 @@
+{
+  "total": 2803,
+  "grade_dist": {
+    "A": 0,
+    "B": 0,
+    "C": 10,
+    "D": 468,
+    "F": 2325
+  },
+  "failure_pct": 99.6,
+  "c_count": 10,
+  "ab_count": 0,
+  "per_day": 350,
+  "top_deployer_count": 1657,
+  "top_deployer_pct": 59.1,
+  "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
+  "sixtyday_count": 6,
+  "first_launch": "2026-06-11T16:15:41.000Z",
+  "rubric_version": "1.1",
+  "generated_at": "2026-06-19T16:36:48.130344+00:00",
+  "specimen": {
+    "vid": 88852,
+    "name": "OrbisAPI",
+    "symbol": "ORBIS",
+    "grade": "C",
+    "composite": 66.8,
+    "config": 45,
+    "creator": 75,
+    "presence": 90,
+    "sniper_tax": true,
+    "sixtyday_lock": false,
+    "launched_at": "2026-06-16T20:56:23.000Z"
+  }
+}
