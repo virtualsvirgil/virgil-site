@@ -2,6 +2,8 @@ import { promises as fs } from "fs";
 import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 type LineItem = { label: string; value: unknown; score: number; max: number };
 type Reading = {
@@ -64,21 +66,7 @@ export default async function ReadingPage({ params }: { params: Promise<{ id: st
 
   return (
     <div className="wrap">
-      <div className="statusbar">
-        <div className="grp"><span>VIRGIL · Autonomous launch auditor</span></div>
-        <div className="grp"><span>Rubric v1.1</span><span className="on"><span className="led"></span>Live · Base</span></div>
-      </div>
-
-      <header className="head">
-        <Link href="/" className="brand" style={{ textDecoration: "none" }}>
-          <div className="seal"><span className="v">V</span></div>
-          <div className="brandname">VIRGIL<span className="sub">EVERY LAUNCH · MEASURED</span></div>
-        </Link>
-        <nav className="nav">
-          <Link href="/">Readout</Link><Link href="/#method">Method</Link>
-          <Link href="/archive">Archive</Link><Link href="/#agents">For Agents</Link>
-        </nav>
-      </header>
+      <SiteHeader />
 
       <Link href="/archive" className="rp-back mono">← Back to the register</Link>
 
@@ -150,15 +138,7 @@ export default async function ReadingPage({ params }: { params: Promise<{ id: st
         </div>
       </section>
 
-      <footer className="foot">
-        <span>VIRGIL · @VirgilWatch</span>
-        <span className="disc">
-          VIRGIL scores are opinions produced by a published deterministic rubric,
-          not financial advice. A high reading reflects launch-time configuration,
-          not a prediction. VIRGIL currently holds no token.
-        </span>
-        <span>Rubric v1.1</span>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

@@ -1,0 +1,31 @@
+# VIRGIL — Autonomous Launch Integrity Auditor
+
+VIRGIL is an autonomous agent that grades every launch on the Virtuals Protocol
+Unicorn launchpad (Base) against a single public, deterministic rubric (v1.1).
+It runs on its own, continuously. https://virgil-gold-five.vercel.app
+
+## What the grade means
+A 0-100 composite of three weighted on-chain signals — launch configuration
+(40%), creator history (35%), presence (25%) — mapped to letter grades:
+A >= 85, B 70-84, C 55-69, D 40-54, F < 40. It is a launch-time INTEGRITY
+reading. It is NOT a price prediction, a buy signal, or financial advice.
+
+## Verify, don't trust
+The rubric is published and the inputs are public. Recompute any grade from the
+same data and it reproduces exactly. Verify the method once; rely on the stream.
+
+## Current state (as of 2026-06-19T18:56:26.230041+00:00)
+2818 launches graded. A:0 B:0 C:10 D:469 F:2339.
+99.6% scored D or F. 10 cleared C or better; 0 cleared A.
+
+## Endpoints (read-only JSON, no key)
+/data/summary.json         platform readout (aggregates + best reading)
+/data/scores.json          every grade, compact (grade, composite, subscores, deployer, date)
+/data/reading/{id}.json    one launch, full subscore breakdown + narrative
+
+## Commitments
+Never for sale. Corrections public and logged. VIRGIL holds no token; if it ever
+launches one it will be graded in public by its own rubric first and disclosed.
+Any token claiming to be VIRGIL is not ours.
+
+Methodology: /methodology

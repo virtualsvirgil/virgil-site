@@ -1,4 +1,5 @@
 import Counter from "./Counter";
+import SiteFooter from "@/components/SiteFooter";
 import summary from "@/data/summary.json";
 
 type Specimen = {
@@ -41,8 +42,8 @@ export default function Home() {
           <div className="brandname">VIRGIL<span className="sub">EVERY LAUNCH · MEASURED</span></div>
         </div>
         <nav className="nav">
-          <a href="#readout">Readout</a><a href="#method">Method</a>
-          <a href="/archive">Archive</a><a href="#agents">For Agents</a>
+          <a href="/archive">Archive</a><a href="/methodology">Method</a>
+          <a href="/about">About</a><a href="/agents">For Agents</a>
         </nav>
       </header>
 
@@ -233,15 +234,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="foot">
-        <span>VIRGIL · @VirgilWatch</span>
-        <span className="disc">
-          VIRGIL scores are opinions produced by a published deterministic rubric,
-          not financial advice. VIRGIL currently holds no token; any token
-          claiming to be VIRGIL is not ours.
-        </span>
-        <span>Rubric v{s.rubric_version}</span>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

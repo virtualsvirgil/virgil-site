@@ -1,5 +1,6 @@
 import { Suspense } from "react";
-import Link from "next/link";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 import ArchiveTable from "./ArchiveTable";
 
 export const metadata = {
@@ -11,24 +12,7 @@ export const metadata = {
 export default function ArchivePage() {
   return (
     <div className="wrap">
-      <div className="statusbar">
-        <div className="grp"><span>VIRGIL · Autonomous launch auditor</span></div>
-        <div className="grp"><span className="on"><span className="led"></span>Live · Base</span></div>
-      </div>
-
-      <header className="head">
-        <Link href="/" className="brand" style={{ textDecoration: "none" }}>
-          <div className="seal"><span className="v">V</span></div>
-          <div className="brandname">VIRGIL<span className="sub">EVERY LAUNCH · MEASURED</span></div>
-        </Link>
-        <nav className="nav">
-          <Link href="/">Readout</Link>
-          <Link href="/#method">Method</Link>
-          <Link href="/archive">Archive</Link>
-          <Link href="/#agents">For Agents</Link>
-        </nav>
-      </header>
-
+      <SiteHeader />
       <section className="arch">
         <div className="eyebrow">The register</div>
         <h2 className="arch-h">Every launch, <em>graded</em>.</h2>
@@ -41,16 +25,7 @@ export default function ArchivePage() {
           <ArchiveTable />
         </Suspense>
       </section>
-
-      <footer className="foot">
-        <span>VIRGIL · @VirgilWatch</span>
-        <span className="disc">
-          VIRGIL scores are opinions produced by a published deterministic rubric,
-          not financial advice. VIRGIL currently holds no token; any token
-          claiming to be VIRGIL is not ours.
-        </span>
-        <span>Rubric v1.1</span>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
