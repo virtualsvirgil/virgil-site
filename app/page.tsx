@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className="wrap">
       <div className="statusbar r d1">
-        <div className="grp"><span>VIRGIL · Launch Integrity Instrument</span></div>
+        <div className="grp"><span>VIRGIL · Autonomous launch auditor</span></div>
         <div className="grp">
           <span>Rubric v{s.rubric_version}</span>
           <span className="on"><span className="led"></span>Live · Base</span>
@@ -49,13 +49,15 @@ export default function Home() {
       {/* HERO — thesis + platform readout (scarcity + distribution spectrum) */}
       <section className="hero" id="readout">
         <div>
-          <div className="eyebrow r d1">Continuous measurement</div>
+          <div className="eyebrow r d1">Autonomous launch auditor · Virtuals Protocol</div>
           <h1 className="r d2">A fixed instrument for<br />an <em>unfixed</em> market.</h1>
           <p className="lede r d3">
-            VIRGIL measures the on-chain configuration of every launch on the
-            Virtuals Unicorn launchpad against one calibrated rubric. No judgment
-            calls. No black box. The same input always yields the same reading —
-            and anyone may check the instrument.
+            VIRGIL is an autonomous agent that grades every launch on the
+            Virtuals Unicorn launchpad — reading each one&apos;s on-chain
+            configuration against a single calibrated, public rubric. It runs on
+            its own, around the clock. No judgment calls, no black box: the same
+            input always yields the same reading, and anyone can check the
+            instrument.
           </p>
         </div>
 
@@ -98,12 +100,14 @@ export default function Home() {
       {recent.length > 0 && (
         <div className="tape">
           <div className="tape-label"><span className="led"></span>Latest readings</div>
-          <div className="tape-track">
-            {[...recent, ...recent].map((r, i) => (
-              <span className="tape-item" key={i}>
-                <span>${r.symbol}</span><span className={`tg g${r.grade}`}>{r.grade}</span>
-              </span>
-            ))}
+          <div className="tape-viewport">
+            <div className="tape-track">
+              {[...recent, ...recent].map((r, i) => (
+                <span className="tape-item" key={i}>
+                  <span>${r.symbol}</span><span className={`tg g${r.grade}`}>{r.grade}</span>
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       )}

@@ -111,11 +111,16 @@ body::before{
 .readout-line b{color:var(--gold);font-weight:600}
 
 /* live tape — continuous measurement */
-.tape{border-top:1px solid var(--grid-line);border-bottom:1px solid var(--grid-line);margin-top:8px;padding:16px 0;display:flex;align-items:center;gap:24px;overflow:hidden}
-.tape-label{flex:none;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:8px}
+.tape{border-top:1px solid var(--grid-line);border-bottom:1px solid var(--grid-line);
+  margin:26px 0 6px;padding:15px 0;display:flex;align-items:center;gap:22px}
+.tape-label{flex:none;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:8px;
+  padding-right:22px;border-right:1px solid var(--grid-line)}
 .tape-label .led{width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold-glow);animation:blink 2.2s ease-in-out infinite}
-.tape-track{display:flex;gap:30px;white-space:nowrap;animation:tape 40s linear infinite;flex:none}
-.tape:hover .tape-track{animation-play-state:paused}
+.tape-viewport{flex:1;min-width:0;overflow:hidden;position:relative;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.tape-track{display:inline-flex;gap:46px;white-space:nowrap;animation:tape 48s linear infinite;will-change:transform}
+.tape-viewport:hover .tape-track{animation-play-state:paused}
 .tape-item{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--signal-dim);letter-spacing:.5px;display:inline-flex;gap:9px;align-items:center}
 .tape-item .tg{font-weight:600}
 .tg.gA{color:var(--g-a)}.tg.gB{color:var(--g-b)}.tg.gC{color:var(--g-c)}.tg.gD{color:var(--g-d)}.tg.gF{color:var(--g-f)}
