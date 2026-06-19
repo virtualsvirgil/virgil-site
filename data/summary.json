@@ -1,19 +1,24 @@
 {
-  "total": 2818,
+  "total": 2819,
   "grade_dist": {
     "A": 0,
     "B": 0,
     "C": 10,
     "D": 469,
-    "F": 2339
+    "F": 2340
   },
   "failure_pct": 99.6,
   "c_count": 10,
   "ab_count": 0,
   "cleared_c": 10,
   "cleared_a": 0,
-  "graded_24h": 229,
+  "graded_24h": 230,
   "recent": [
+    {
+      "symbol": "SUMMER",
+      "grade": "F",
+      "vid": 90524
+    },
     {
       "symbol": "XTRUTH",
       "grade": "F",
@@ -88,21 +93,16 @@
       "symbol": "LEMMA",
       "grade": "F",
       "vid": 90502
-    },
-    {
-      "symbol": "TW",
-      "grade": "F",
-      "vid": 90499
     }
   ],
   "per_day": 352,
-  "top_deployer_count": 1665,
+  "top_deployer_count": 1666,
   "top_deployer_pct": 59.1,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 6,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-19T19:08:55.998998+00:00",
+  "generated_at": "2026-06-19T19:14:20.363317+00:00",
   "specimen": {
     "vid": 88852,
     "name": "OrbisAPI",
