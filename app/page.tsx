@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <nav className="nav">
           <a href="#readout">Readout</a><a href="#method">Method</a>
-          <a href="#">Archive</a><a href="#agents">For Agents</a>
+          <a href="/archive">Archive</a><a href="#agents">For Agents</a>
         </nav>
       </header>
 
@@ -80,17 +80,17 @@ export default function Home() {
             </div>
             <div className="spectrum-legend">
               {GRADES.map((g) => (
-                <div key={g} className={`leg g${g}`}>
+                <a key={g} className={`leg g${g}`} href={`/archive?grade=${g}`}>
                   <div className="lg-g">{g}</div>
                   <div className="lg-n">{dist[g].toLocaleString("en-US")}</div>
-                </div>
+                </a>
               ))}
             </div>
           </div>
 
           <div className="readout-line">
-            <span><b>{s.cleared_c}</b> cleared C+</span>
-            <span><b>{s.cleared_a}</b> cleared A</span>
+            <a href="/archive?min=C"><b>{s.cleared_c}</b> cleared C+</a>
+            <a href="/archive?grade=A"><b>{s.cleared_a}</b> cleared A</a>
             <span><b>{s.graded_24h}</b> in last 24h</span>
           </div>
         </div>
@@ -103,9 +103,9 @@ export default function Home() {
           <div className="tape-viewport">
             <div className="tape-track">
               {[...recent, ...recent].map((r, i) => (
-                <span className="tape-item" key={i}>
+                <a className="tape-item" key={i} href={`/archive?q=${r.symbol}`}>
                   <span>${r.symbol}</span><span className={`tg g${r.grade}`}>{r.grade}</span>
-                </span>
+                </a>
               ))}
             </div>
           </div>
@@ -137,7 +137,9 @@ export default function Home() {
               <span>one wallet · {s.top_deployer_pct}%</span>
               <span>everyone else · {(100 - s.top_deployer_pct).toFixed(1)}%</span>
             </div>
-            <div className="conc-wallet">DEPLOYER · <b>{shortWallet(s.top_deployer_wallet)}</b></div>
+            <a className="conc-link" href={`/archive?q=${s.top_deployer_wallet}`}>
+              <div className="conc-wallet">DEPLOYER · <b>{shortWallet(s.top_deployer_wallet)}</b> — view all →</div>
+            </a>
           </div>
         </div>
       </section>

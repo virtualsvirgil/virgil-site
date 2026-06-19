@@ -1,19 +1,24 @@
 {
-  "total": 2813,
+  "total": 2814,
   "grade_dist": {
     "A": 0,
     "B": 0,
     "C": 10,
     "D": 469,
-    "F": 2334
+    "F": 2335
   },
   "failure_pct": 99.6,
   "c_count": 10,
   "ab_count": 0,
   "cleared_c": 10,
   "cleared_a": 0,
-  "graded_24h": 238,
+  "graded_24h": 235,
   "recent": [
+    {
+      "symbol": "1000000",
+      "grade": "F",
+      "vid": 90381
+    },
     {
       "symbol": "LFI",
       "grade": "F",
@@ -88,11 +93,6 @@
       "symbol": "LEMMA",
       "grade": "F",
       "vid": 90493
-    },
-    {
-      "symbol": "B20",
-      "grade": "F",
-      "vid": 90492
     }
   ],
   "per_day": 352,
@@ -102,7 +102,7 @@
   "sixtyday_count": 6,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-19T17:49:06.618815+00:00",
+  "generated_at": "2026-06-19T18:08:10.303440+00:00",
   "specimen": {
     "vid": 88852,
     "name": "OrbisAPI",
