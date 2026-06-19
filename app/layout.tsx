@@ -15,6 +15,12 @@ export const metadata: Metadata = {
     url: "https://www.virgilwatch.com",
     siteName: "VIRGIL",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "VIRGIL — Every launch. Graded.",
+    description:
+      "A fixed instrument for an unfixed market. Every Virtuals launch, measured against one calibrated rubric.",
+  },
 };
 
 export default function RootLayout({
