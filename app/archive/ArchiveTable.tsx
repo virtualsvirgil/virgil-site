@@ -118,7 +118,7 @@ export default function ArchiveTable() {
             {shown.map((r) => (
               <tr key={r.id}>
                 <td><span className={`arch-g g${r.grade}`}>{r.grade}</span></td>
-                <td><span className="arch-tkr">${r.symbol}</span></td>
+                <td><a className="arch-tkr" href={`/reading/${r.id}`}>${r.symbol}</a></td>
                 <td className="arch-name">{r.name}</td>
                 <td>{r.composite.toFixed(1)}</td>
                 <td>{r.lc}</td><td>{r.ch}</td><td>{r.pr}</td>
