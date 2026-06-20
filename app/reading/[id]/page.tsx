@@ -13,6 +13,7 @@ type Reading = {
   capital_formation: boolean; launch_radar: boolean; verified: boolean;
   twitter: string | null;
   subscores: Record<string, Record<string, LineItem>>; narrative: string | null;
+  retrospective?: boolean;
 };
 
 async function getReading(id: string): Promise<Reading | null> {
@@ -25,13 +26,17 @@ async function getReading(id: string): Promise<Reading | null> {
 }
 
 export async function generateStaticParams() {
-  try {
-    const p = path.join(process.cwd(), "public", "data", "scores.json");
-    const d = JSON.parse(await fs.readFile(p, "utf8"));
-    return (d.launches as { id: number }[]).map((l) => ({ id: String(l.id) }));
-  } catch {
-    return [];
+  const ids = new Set<string>();
+  for (const file of ["scores.json", "lookback.json"]) {
+    try {
+      const p = path.join(process.cwd(), "public", "data", file);
+      const d = JSON.parse(await fs.readFile(p, "utf8"));
+      for (const l of d.launches as { id: number }[]) ids.add(String(l.id));
+    } catch {
+      /* file may not exist (e.g. lookback not yet generated) */
+    }
   }
+  return [...ids].map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
@@ -68,7 +73,9 @@ export default async function ReadingPage({ params }: { params: Promise<{ id: st
     <div className="wrap">
       <SiteHeader />
 
-      <Link href="/archive" className="rp-back mono">← Back to the register</Link>
+      <Link href={r.retrospective ? "/lookback" : "/archive"} className="rp-back mono">
+        ← Back to the {r.retrospective ? "lookback" : "register"}
+      </Link>
 
       <section className="rp">
         {/* reading header */}
@@ -91,6 +98,21 @@ export default async function ReadingPage({ params }: { params: Promise<{ id: st
             <span data-on={r.verified}>Verified</span>
           </div>
         </div>
+
+        {r.retrospective && (
+          <div
+            className="mono"
+            style={{
+              margin: "14px 0 0", padding: "12px 16px", border: "1px solid var(--grid-line)",
+              borderRadius: "8px", color: "var(--signal-faint)", fontSize: "12.5px", lineHeight: 1.6,
+            }}
+          >
+            Retrospective reading — this launch predates VIRGIL&apos;s live coverage.
+            Graded after the fact by the same rubric, as-of-launch; it was not issued
+            in real time. See the <a href="/changelog">changelog</a> and{" "}
+            <a href="/lookback">lookback</a>.
+          </div>
+        )}
 
         {/* breakdown */}
         <div className="rp-breakdown">

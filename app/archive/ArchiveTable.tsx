@@ -13,7 +13,7 @@ function short(w: string) {
   return w && w.length > 14 ? `${w.slice(0, 6)}…${w.slice(-4)}` : w;
 }
 
-export default function ArchiveTable() {
+export default function ArchiveTable({ src = "/data/scores.json" }: { src?: string }) {
   const params = useSearchParams();
   const [rows, setRows] = useState<Row[] | null>(null);
   const [q, setQ] = useState("");
@@ -35,11 +35,11 @@ export default function ArchiveTable() {
   }, [params]);
 
   useEffect(() => {
-    fetch("/data/scores.json")
+    fetch(src)
       .then((r) => r.json())
       .then((d) => setRows(d.launches as Row[]))
       .catch(() => setRows([]));
-  }, []);
+  }, [src]);
 
   const filtered = useMemo(() => {
     if (!rows) return [];

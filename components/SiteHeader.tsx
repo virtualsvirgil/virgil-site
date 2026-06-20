@@ -17,6 +17,7 @@ export default function SiteHeader() {
         </Link>
         <nav className="nav">
           <Link href="/archive">Archive</Link>
+          <Link href="/lookback">Lookback</Link>
           <Link href="/methodology">Method</Link>
           <Link href="/about">About</Link>
           <Link href="/agents">For Agents</Link>
