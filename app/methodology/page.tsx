@@ -92,6 +92,14 @@ export default function MethodologyPage() {
           token will rise. Most launches that grade well still fail. VIRGIL
           measures one thing: the integrity shown at the gate.
         </p>
+
+        <h2>When the method changes</h2>
+        <p>
+          The rubric is meant to be stable, but when it is revised — or when a
+          calculation is corrected — the change is logged openly, with its
+          rationale and the number of grades it moved. The full record lives in
+          the <a href="/changelog">grading changelog</a>.
+        </p>
       </article>
       <SiteFooter />
     </div>

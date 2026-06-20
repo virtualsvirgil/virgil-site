@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SiteFooter() {
   return (
     <footer className="foot">
@@ -8,7 +10,9 @@ export default function SiteFooter() {
         price. VIRGIL currently holds no token; any token claiming to be VIRGIL
         is not ours.
       </span>
-      <span>Rubric v1.1</span>
+      <Link href="/changelog" style={{ textDecoration: "none" }}>
+        Rubric v1.1 · changelog
+      </Link>
     </footer>
   );
 }
