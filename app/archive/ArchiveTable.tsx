@@ -13,7 +13,10 @@ function short(w: string) {
   return w && w.length > 14 ? `${w.slice(0, 6)}…${w.slice(-4)}` : w;
 }
 
-export default function ArchiveTable({ src = "/data/scores.json" }: { src?: string }) {
+export default function ArchiveTable(
+  { src = "/data/scores.json", linkReadings = true }:
+  { src?: string; linkReadings?: boolean }
+) {
   const params = useSearchParams();
   const [rows, setRows] = useState<Row[] | null>(null);
   const [q, setQ] = useState("");
@@ -118,7 +121,9 @@ export default function ArchiveTable({ src = "/data/scores.json" }: { src?: stri
             {shown.map((r) => (
               <tr key={r.id}>
                 <td><span className={`arch-g g${r.grade}`}>{r.grade}</span></td>
-                <td><a className="arch-tkr" href={`/reading/${r.id}`}>${r.symbol}</a></td>
+                <td>{linkReadings
+                  ? <a className="arch-tkr" href={`/reading/${r.id}`}>${r.symbol}</a>
+                  : <span className="arch-tkr">${r.symbol}</span>}</td>
                 <td className="arch-name">{r.name}</td>
                 <td>{r.composite.toFixed(1)}</td>
                 <td>{r.lc}</td><td>{r.ch}</td><td>{r.pr}</td>

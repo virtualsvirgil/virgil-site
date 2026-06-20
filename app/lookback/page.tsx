@@ -27,7 +27,7 @@ export default function LookbackPage() {
           by ticker, name, or deployer wallet.
         </p>
         <Suspense fallback={<div className="arch-loading mono">Loading lookback…</div>}>
-          <ArchiveTable src="/data/lookback.json" />
+          <ArchiveTable src="/data/lookback.json" linkReadings={false} />
         </Suspense>
       </section>
       <SiteFooter />

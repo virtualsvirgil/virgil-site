@@ -25,18 +25,20 @@ async function getReading(id: string): Promise<Reading | null> {
   }
 }
 
+// Only the LIVE cohort gets prerendered detail pages. The lookback (~8.6k
+// historical launches) is a table-only view — prerendering all of them blew the
+// Vercel build. Lookback per-launch data still ships as /data/reading/{id}.json
+// machine endpoints. dynamicParams=false → any non-live id 404s cleanly.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  const ids = new Set<string>();
-  for (const file of ["scores.json", "lookback.json"]) {
-    try {
-      const p = path.join(process.cwd(), "public", "data", file);
-      const d = JSON.parse(await fs.readFile(p, "utf8"));
-      for (const l of d.launches as { id: number }[]) ids.add(String(l.id));
-    } catch {
-      /* file may not exist (e.g. lookback not yet generated) */
-    }
+  try {
+    const p = path.join(process.cwd(), "public", "data", "scores.json");
+    const d = JSON.parse(await fs.readFile(p, "utf8"));
+    return (d.launches as { id: number }[]).map((l) => ({ id: String(l.id) }));
+  } catch {
+    return [];
   }
-  return [...ids].map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
