@@ -28,11 +28,24 @@ export default function MethodologyPage() {
         </p>
         <ul className="m-list">
           <li><b>Launch configuration — 40%.</b> The choices a founder makes on-chain: the anti-sniper tax, the 60-day founder commitment, the capital-formation module, launch radar, allocation. Choices that cost a serious founder little and a fleeting one everything.</li>
-          <li><b>Creator history — 35%.</b> The deployer wallet&apos;s age, transaction record, and how many tokens it has launched before. A fresh wallet on its four-hundredth launch reads nothing like a real builder&apos;s.</li>
+          <li><b>Creator history — 35%.</b> The deployer wallet&apos;s age, transaction record, and how many tokens it had launched <i>before this one</i>. A fresh wallet on its four-hundredth launch reads nothing like a real builder&apos;s.</li>
           <li><b>Presence — 25%.</b> Whether a real, claimed identity stands behind the launch: a linked account, a substantive description, documentation.</li>
         </ul>
         <p className="m-formula mono">
           composite = (config × 0.40) + (creator × 0.35) + (presence × 0.25)
+        </p>
+
+        <h2>A reading is dated</h2>
+        <p>
+          Two of these signals describe the launch as it stood at launch.
+          Launch configuration is fixed on-chain the moment a token goes live.
+          Creator history is read <b>as of that launch</b> — only the deployer&apos;s
+          launches that <i>preceded</i> this one count toward it. A wallet&apos;s
+          later launches never reach back and change a grade already issued; what
+          a deployer does afterward is its own future record, not a revision of
+          this one. This is also what keeps the count reproducible: a tally of
+          what came before never shifts, so anyone recomputing it later gets the
+          same number.
         </p>
 
         <h2>Fixed grade thresholds</h2>
