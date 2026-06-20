@@ -223,7 +223,7 @@ export default function Home() {
               the method once and rely on the stream. The grade is a calibrated,
               checkable reference — not a black box to be trusted on faith.
             </p>
-            <a className="cta" href="#">Read the methodology →</a>
+            <a className="cta" href="/methodology">Read the methodology →</a>
           </div>
           <div className="agents-card">
             <div><span className="k">deterministic</span> <span className="c">— same input, same grade, every time</span></div>

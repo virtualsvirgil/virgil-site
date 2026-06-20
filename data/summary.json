@@ -1,19 +1,44 @@
 {
-  "total": 3220,
+  "total": 3225,
   "grade_dist": {
     "A": 0,
     "B": 0,
     "C": 12,
     "D": 500,
-    "F": 2708
+    "F": 2713
   },
   "failure_pct": 99.6,
   "c_count": 12,
   "ab_count": 0,
   "cleared_c": 12,
   "cleared_a": 0,
-  "graded_24h": 3220,
+  "graded_24h": 3225,
   "recent": [
+    {
+      "symbol": "KAIMO",
+      "grade": "F",
+      "vid": 91041
+    },
+    {
+      "symbol": "TRUMP",
+      "grade": "F",
+      "vid": 91040
+    },
+    {
+      "symbol": "DULUS",
+      "grade": "F",
+      "vid": 91039
+    },
+    {
+      "symbol": "MIKO",
+      "grade": "F",
+      "vid": 91038
+    },
+    {
+      "symbol": "BUNNYDS",
+      "grade": "F",
+      "vid": 91037
+    },
     {
       "symbol": "BREACH",
       "grade": "F",
@@ -68,41 +93,16 @@
       "symbol": "KINTARA",
       "grade": "F",
       "vid": 91022
-    },
-    {
-      "symbol": "BROKE",
-      "grade": "D",
-      "vid": 91021
-    },
-    {
-      "symbol": "ETAF",
-      "grade": "F",
-      "vid": 91019
-    },
-    {
-      "symbol": "ETAF",
-      "grade": "F",
-      "vid": 91018
-    },
-    {
-      "symbol": "MUFO",
-      "grade": "F",
-      "vid": 91017
-    },
-    {
-      "symbol": "CATAPULT",
-      "grade": "F",
-      "vid": 91016
     }
   ],
   "per_day": 358,
-  "top_deployer_count": 1832,
+  "top_deployer_count": 1836,
   "top_deployer_pct": 56.9,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 7,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-20T18:03:34.595619+00:00",
+  "generated_at": "2026-06-20T18:23:53.180511+00:00",
   "specimen": {
     "vid": 88852,
     "name": "OrbisAPI",

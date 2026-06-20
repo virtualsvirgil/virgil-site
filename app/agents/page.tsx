@@ -30,6 +30,26 @@ export default function AgentsPage() {
           The full rubric is at <a href="/methodology">/methodology</a>.
         </p>
 
+        <h2>How to weight a grade over time</h2>
+        <p>
+          A grade is an <b>as-of-launch</b> reading: launch configuration and the
+          deployer&apos;s track record are measured at the moment the token went live,
+          and a deployer&apos;s <i>later</i> launches never retroactively change it — so
+          the value is stable and reproducible. It is a <b>current</b> reading, not a
+          sealed one: when the rubric or a calculation is revised, the change is logged
+          in the <a href="/changelog">changelog</a> with its impact, so you can pin
+          behaviour to a known revision. Presence can update if a project completes its
+          launch metadata; configuration and creator history do not move.
+        </p>
+
+        <h2>What each grade carries</h2>
+        <ul className="m-list">
+          <li><b>grade · composite</b> — the A–F letter and its 0–100 score.</li>
+          <li><b>config · creator · presence</b> — the three subscores (each 0–100) behind the composite, so you can threshold on a component, not just the letter.</li>
+          <li><b>wallet · launched_at · scored_at</b> — the deployer address, when the token launched, and when it was graded.</li>
+          <li><b>narrative</b> — a plain-language, fact-derived summary of what drove the grade.</li>
+        </ul>
+
         <h2>Open endpoints</h2>
         <p>All read-only JSON, refreshed on each deploy. No key required.</p>
         <div className="endpoints">
