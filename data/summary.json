@@ -1,108 +1,108 @@
 {
-  "total": 2841,
+  "total": 2931,
   "grade_dist": {
     "A": 0,
     "B": 0,
     "C": 10,
-    "D": 473,
-    "F": 2358
+    "D": 539,
+    "F": 2382
   },
-  "failure_pct": 99.6,
+  "failure_pct": 99.7,
   "c_count": 10,
   "ab_count": 0,
   "cleared_c": 10,
   "cleared_a": 0,
-  "graded_24h": 232,
+  "graded_24h": 288,
   "recent": [
     {
-      "symbol": "BERYL",
-      "grade": "F",
-      "vid": 90564
-    },
-    {
-      "symbol": "FUND",
-      "grade": "F",
-      "vid": 90563
-    },
-    {
-      "symbol": "CLAWBANK",
-      "grade": "F",
-      "vid": 90562
-    },
-    {
-      "symbol": "MECAGENT",
+      "symbol": "321",
       "grade": "D",
-      "vid": 90561
+      "vid": 90661
     },
     {
-      "symbol": "CLANKING",
-      "grade": "F",
-      "vid": 90558
-    },
-    {
-      "symbol": "FORGE",
-      "grade": "F",
-      "vid": 90557
-    },
-    {
-      "symbol": "ZYLON",
+      "symbol": "431",
       "grade": "D",
-      "vid": 90531
+      "vid": 90660
     },
     {
-      "symbol": "INF",
+      "symbol": "123",
       "grade": "D",
-      "vid": 90553
+      "vid": 90658
     },
     {
-      "symbol": "GITWEB",
-      "grade": "F",
-      "vid": 90552
+      "symbol": "BOND2",
+      "grade": "D",
+      "vid": 90655
     },
     {
-      "symbol": "GITWEB",
-      "grade": "F",
-      "vid": 90551
+      "symbol": "VQWVEQW",
+      "grade": "D",
+      "vid": 90656
     },
     {
-      "symbol": "PERPS",
-      "grade": "F",
-      "vid": 90550
+      "symbol": "DOVE",
+      "grade": "D",
+      "vid": 90654
     },
     {
-      "symbol": "KYRA",
-      "grade": "F",
-      "vid": 90549
+      "symbol": "DOVE",
+      "grade": "D",
+      "vid": 90653
     },
     {
-      "symbol": "CRX",
-      "grade": "F",
-      "vid": 90544
+      "symbol": "WAVE",
+      "grade": "D",
+      "vid": 90652
     },
     {
-      "symbol": "LCTRN",
-      "grade": "F",
-      "vid": 90543
+      "symbol": "BROV",
+      "grade": "D",
+      "vid": 90651
     },
     {
-      "symbol": "LCTRN",
-      "grade": "F",
-      "vid": 90541
+      "symbol": "WEHR",
+      "grade": "D",
+      "vid": 90650
     },
     {
-      "symbol": "KEYNOTE",
-      "grade": "F",
-      "vid": 90538
+      "symbol": "TEAR",
+      "grade": "D",
+      "vid": 90649
+    },
+    {
+      "symbol": "WEEAR",
+      "grade": "D",
+      "vid": 90648
+    },
+    {
+      "symbol": "BEAR",
+      "grade": "D",
+      "vid": 90647
+    },
+    {
+      "symbol": "DOPE",
+      "grade": "D",
+      "vid": 90646
+    },
+    {
+      "symbol": "PENDING",
+      "grade": "D",
+      "vid": 90645
+    },
+    {
+      "symbol": "123",
+      "grade": "D",
+      "vid": 90643
     }
   ],
-  "per_day": 355,
-  "top_deployer_count": 1674,
-  "top_deployer_pct": 58.9,
+  "per_day": 366,
+  "top_deployer_count": 1696,
+  "top_deployer_pct": 57.9,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 6,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-19T22:00:42.540724+00:00",
+  "generated_at": "2026-06-20T00:20:10.616005+00:00",
   "specimen": {
     "vid": 88852,
     "name": "OrbisAPI",
