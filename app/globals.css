@@ -357,7 +357,12 @@ a.tape-item:hover{color:var(--signal)}
 @media(max-width:900px){
   .hero,.concentration,.specimen,.agents{grid-template-columns:1fr;gap:36px}
   .signals-grid,.specs-grid{grid-template-columns:1fr}
-  .nav{display:none}
+  /* Mobile nav: don't hide it — let the header wrap and the links flow to a
+     full-width wrapping row so all sections stay reachable on phones. */
+  .head{flex-wrap:wrap;gap:10px}
+  .nav{width:100%;flex-wrap:wrap;gap:6px;justify-content:flex-start}
+  .nav a{padding:7px 11px;font-size:11px}
+  .statusbar{flex-wrap:wrap;gap:6px}
   .rp-item{grid-template-columns:1fr 70px;gap:8px}
   .rp-item-meter{display:none}
 }

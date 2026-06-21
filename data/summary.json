@@ -1,108 +1,108 @@
 {
-  "total": 3280,
+  "total": 3395,
   "grade_dist": {
     "A": 0,
     "B": 0,
-    "C": 12,
-    "D": 505,
-    "F": 2763
+    "C": 13,
+    "D": 518,
+    "F": 2864
   },
   "failure_pct": 99.6,
-  "c_count": 12,
+  "c_count": 13,
   "ab_count": 0,
-  "cleared_c": 12,
+  "cleared_c": 13,
   "cleared_a": 0,
-  "graded_24h": 3280,
+  "graded_24h": 3395,
   "recent": [
     {
-      "symbol": "BLUAI",
+      "symbol": "DOGEFATHER",
       "grade": "F",
-      "vid": 91117
+      "vid": 91303
     },
     {
-      "symbol": "TROLL",
+      "symbol": "AIDOS",
       "grade": "F",
-      "vid": 91115
+      "vid": 91300
     },
     {
-      "symbol": "UBERMENSCH",
+      "symbol": "GAMM",
       "grade": "F",
-      "vid": 91114
+      "vid": 91298
     },
     {
-      "symbol": "NOVA",
+      "symbol": "GOTCHA",
       "grade": "F",
-      "vid": 91113
+      "vid": 91297
     },
     {
-      "symbol": "KERMIT",
+      "symbol": "BASEMATE",
       "grade": "F",
-      "vid": 91112
+      "vid": 91296
     },
     {
-      "symbol": "KUVIAI",
+      "symbol": "TNSR",
       "grade": "F",
-      "vid": 91111
+      "vid": 91295
     },
     {
-      "symbol": "KUVIAI",
+      "symbol": "NUWA",
       "grade": "F",
-      "vid": 91110
+      "vid": 91293
     },
     {
-      "symbol": "WADDLE",
-      "grade": "F",
-      "vid": 91109
-    },
-    {
-      "symbol": "KUPO",
-      "grade": "F",
-      "vid": 91108
-    },
-    {
-      "symbol": "RYOSHI",
-      "grade": "F",
-      "vid": 91107
-    },
-    {
-      "symbol": "PEANIE",
-      "grade": "F",
-      "vid": 91106
-    },
-    {
-      "symbol": "STOICISM",
-      "grade": "F",
-      "vid": 91105
-    },
-    {
-      "symbol": "POOPGUIN",
-      "grade": "F",
-      "vid": 91104
-    },
-    {
-      "symbol": "XONA",
-      "grade": "F",
-      "vid": 91102
-    },
-    {
-      "symbol": "DXED",
-      "grade": "F",
-      "vid": 91100
-    },
-    {
-      "symbol": "BELIEF",
+      "symbol": "34343343",
       "grade": "D",
-      "vid": 91099
+      "vid": 91292
+    },
+    {
+      "symbol": "ACISMART",
+      "grade": "F",
+      "vid": 91101
+    },
+    {
+      "symbol": "676464",
+      "grade": "D",
+      "vid": 91282
+    },
+    {
+      "symbol": "VELLUM",
+      "grade": "F",
+      "vid": 91289
+    },
+    {
+      "symbol": "UPSI",
+      "grade": "F",
+      "vid": 91288
+    },
+    {
+      "symbol": "STRIKE",
+      "grade": "D",
+      "vid": 91281
+    },
+    {
+      "symbol": "RIZAN",
+      "grade": "F",
+      "vid": 91286
+    },
+    {
+      "symbol": "676436433",
+      "grade": "D",
+      "vid": 91280
+    },
+    {
+      "symbol": "8656466456",
+      "grade": "D",
+      "vid": 91279
     }
   ],
-  "per_day": 364,
-  "top_deployer_count": 1869,
-  "top_deployer_pct": 57.0,
+  "per_day": 377,
+  "top_deployer_count": 1928,
+  "top_deployer_pct": 56.8,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 7,
+  "sixtyday_count": 8,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-21T00:20:20.431535+00:00",
+  "generated_at": "2026-06-21T15:55:55.784074+00:00",
   "specimen": {
     "vid": 88852,
     "name": "OrbisAPI",
