@@ -1,108 +1,108 @@
 {
-  "total": 3787,
+  "total": 3950,
   "grade_dist": {
     "A": 0,
     "B": 0,
-    "C": 15,
-    "D": 666,
-    "F": 3106
+    "C": 17,
+    "D": 742,
+    "F": 3191
   },
   "failure_pct": 99.6,
-  "c_count": 15,
+  "c_count": 17,
   "ab_count": 0,
-  "cleared_c": 15,
+  "cleared_c": 17,
   "cleared_a": 0,
-  "graded_24h": 301,
+  "graded_24h": 283,
   "recent": [
     {
-      "symbol": "HANDS",
+      "symbol": "NEXORA",
       "grade": "F",
-      "vid": 91827
+      "vid": 92041
     },
     {
-      "symbol": "IPWORLD",
+      "symbol": "ANTARESTAR",
       "grade": "F",
-      "vid": 91826
+      "vid": 92040
     },
     {
-      "symbol": "BRIT",
+      "symbol": "CHILLETH",
       "grade": "F",
-      "vid": 91825
+      "vid": 92038
     },
     {
-      "symbol": "CNTBAGWORK",
+      "symbol": "UIO",
       "grade": "F",
-      "vid": 91824
+      "vid": 92019
     },
     {
-      "symbol": "BAGEY",
-      "grade": "F",
-      "vid": 91823
+      "symbol": "CRUST",
+      "grade": "D",
+      "vid": 92032
     },
     {
-      "symbol": "CLEARED",
+      "symbol": "THEGEBLEK",
       "grade": "F",
-      "vid": 91822
+      "vid": 92033
     },
     {
-      "symbol": "READPOST",
+      "symbol": "CHUM",
       "grade": "F",
-      "vid": 91821
+      "vid": 92031
     },
     {
-      "symbol": "GEOD",
+      "symbol": "FIXER",
       "grade": "F",
-      "vid": 91820
+      "vid": 92030
     },
     {
-      "symbol": "UFOBEAT",
+      "symbol": "FIXER",
       "grade": "F",
-      "vid": 91819
+      "vid": 92028
     },
     {
-      "symbol": "C0RE",
+      "symbol": "SPYX",
       "grade": "F",
-      "vid": 91818
+      "vid": 92027
     },
     {
-      "symbol": "PETANA",
+      "symbol": "PAKIMB",
       "grade": "F",
-      "vid": 91817
+      "vid": 92026
     },
     {
-      "symbol": "COLLAT",
+      "symbol": "TRUMPCRAFT",
       "grade": "F",
-      "vid": 91816
+      "vid": 92025
     },
     {
-      "symbol": "EXARK",
+      "symbol": "FISHER",
       "grade": "F",
-      "vid": 91815
+      "vid": 92024
     },
     {
-      "symbol": "FIRSTOCO",
+      "symbol": "BALLOON",
       "grade": "F",
-      "vid": 91814
+      "vid": 92023
     },
     {
-      "symbol": "ACI",
+      "symbol": "RYXON",
       "grade": "F",
-      "vid": 91709
+      "vid": 92022
     },
     {
-      "symbol": "FLY",
+      "symbol": "JEFFTEST",
       "grade": "F",
-      "vid": 91811
+      "vid": 92021
     }
   ],
-  "per_day": 344,
-  "top_deployer_count": 2058,
-  "top_deployer_pct": 54.3,
+  "per_day": 359,
+  "top_deployer_count": 2119,
+  "top_deployer_pct": 53.6,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 11,
+  "sixtyday_count": 13,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-23T00:20:20.266078+00:00",
+  "generated_at": "2026-06-23T11:23:29.099374+00:00",
   "specimen": {
     "vid": 91723,
     "name": "FIFA-Token",
