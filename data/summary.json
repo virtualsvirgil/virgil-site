@@ -1,119 +1,119 @@
 {
-  "total": 3486,
+  "total": 3787,
   "grade_dist": {
     "A": 0,
     "B": 0,
-    "C": 14,
-    "D": 524,
-    "F": 2948
+    "C": 15,
+    "D": 666,
+    "F": 3106
   },
   "failure_pct": 99.6,
-  "c_count": 14,
+  "c_count": 15,
   "ab_count": 0,
-  "cleared_c": 14,
+  "cleared_c": 15,
   "cleared_a": 0,
-  "graded_24h": 206,
+  "graded_24h": 301,
   "recent": [
     {
-      "symbol": "HERMES",
+      "symbol": "HANDS",
       "grade": "F",
-      "vid": 91434
+      "vid": 91827
     },
     {
-      "symbol": "MEGAEYE",
+      "symbol": "IPWORLD",
       "grade": "F",
-      "vid": 91433
+      "vid": 91826
     },
     {
-      "symbol": "XYBER",
+      "symbol": "BRIT",
       "grade": "F",
-      "vid": 91431
+      "vid": 91825
     },
     {
-      "symbol": "B20",
+      "symbol": "CNTBAGWORK",
       "grade": "F",
-      "vid": 91430
+      "vid": 91824
     },
     {
-      "symbol": "DAEMON",
+      "symbol": "BAGEY",
       "grade": "F",
-      "vid": 91429
+      "vid": 91823
     },
     {
-      "symbol": "RUN",
+      "symbol": "CLEARED",
       "grade": "F",
-      "vid": 91428
+      "vid": 91822
     },
     {
-      "symbol": "PATRICKVID",
+      "symbol": "READPOST",
       "grade": "F",
-      "vid": 91426
+      "vid": 91821
     },
     {
-      "symbol": "VG",
+      "symbol": "GEOD",
       "grade": "F",
-      "vid": 91424
+      "vid": 91820
     },
     {
-      "symbol": "ZAI",
+      "symbol": "UFOBEAT",
       "grade": "F",
-      "vid": 91421
+      "vid": 91819
     },
     {
-      "symbol": "PLOT",
+      "symbol": "C0RE",
       "grade": "F",
-      "vid": 91422
+      "vid": 91818
     },
     {
-      "symbol": "DONEM",
+      "symbol": "PETANA",
       "grade": "F",
-      "vid": 91420
+      "vid": 91817
     },
     {
-      "symbol": "BBOT",
+      "symbol": "COLLAT",
       "grade": "F",
-      "vid": 91419
+      "vid": 91816
     },
     {
-      "symbol": "V21",
+      "symbol": "EXARK",
       "grade": "F",
-      "vid": 91418
+      "vid": 91815
     },
     {
-      "symbol": "MORO",
+      "symbol": "FIRSTOCO",
       "grade": "F",
-      "vid": 91416
+      "vid": 91814
     },
     {
-      "symbol": "PANDAS",
-      "grade": "D",
-      "vid": 91415
+      "symbol": "ACI",
+      "grade": "F",
+      "vid": 91709
     },
     {
-      "symbol": "AICO",
+      "symbol": "FLY",
       "grade": "F",
-      "vid": 91412
+      "vid": 91811
     }
   ],
-  "per_day": 349,
-  "top_deployer_count": 1984,
-  "top_deployer_pct": 56.9,
+  "per_day": 344,
+  "top_deployer_count": 2058,
+  "top_deployer_pct": 54.3,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 8,
+  "sixtyday_count": 11,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-22T00:20:20.308302+00:00",
+  "generated_at": "2026-06-23T00:20:20.266078+00:00",
   "specimen": {
-    "vid": 88852,
-    "name": "OrbisAPI",
-    "symbol": "ORBIS",
+    "vid": 91723,
+    "name": "FIFA-Token",
+    "symbol": "FIFA",
     "grade": "C",
-    "composite": 66.8,
-    "config": 45,
-    "creator": 75,
-    "presence": 90,
+    "composite": 69.8,
+    "config": 60,
+    "creator": 95,
+    "presence": 50,
     "sniper_tax": true,
-    "sixtyday_lock": false,
-    "launched_at": "2026-06-16T20:56:23.000Z"
+    "sixtyday_lock": true,
+    "launched_at": "2026-06-22T16:38:27.000Z"
   }
 }
