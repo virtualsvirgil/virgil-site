@@ -1,108 +1,108 @@
 {
-  "total": 4493,
+  "total": 4664,
   "grade_dist": {
     "A": 0,
     "B": 0,
-    "C": 18,
-    "D": 817,
-    "F": 3658
+    "C": 19,
+    "D": 839,
+    "F": 3806
   },
   "failure_pct": 99.6,
-  "c_count": 18,
+  "c_count": 19,
   "ab_count": 0,
-  "cleared_c": 18,
+  "cleared_c": 19,
   "cleared_a": 0,
-  "graded_24h": 314,
+  "graded_24h": 171,
   "recent": [
     {
-      "symbol": "SELFE",
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93169
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93168
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93167
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93166
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93165
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93164
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93163
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93162
+    },
+    {
+      "symbol": "PIONER",
+      "grade": "F",
+      "vid": 93161
+    },
+    {
+      "symbol": "HERMES",
+      "grade": "F",
+      "vid": 93159
+    },
+    {
+      "symbol": "UNIBASE",
+      "grade": "F",
+      "vid": 93158
+    },
+    {
+      "symbol": "WORLDCUP",
+      "grade": "F",
+      "vid": 93157
+    },
+    {
+      "symbol": "HB",
       "grade": "D",
-      "vid": 92850
+      "vid": 93150
     },
     {
-      "symbol": "OBI",
+      "symbol": "PEAKS",
+      "grade": "F",
+      "vid": 93155
+    },
+    {
+      "symbol": "WXPL",
+      "grade": "F",
+      "vid": 93154
+    },
+    {
+      "symbol": "DEBOT",
       "grade": "D",
-      "vid": 92882
-    },
-    {
-      "symbol": "FNKY",
-      "grade": "D",
-      "vid": 92880
-    },
-    {
-      "symbol": "XBANGERS",
-      "grade": "F",
-      "vid": 92879
-    },
-    {
-      "symbol": "FUNKY",
-      "grade": "D",
-      "vid": 92878
-    },
-    {
-      "symbol": "ISHOWSPEED",
-      "grade": "F",
-      "vid": 92877
-    },
-    {
-      "symbol": "GOLDPENGUIN",
-      "grade": "F",
-      "vid": 92876
-    },
-    {
-      "symbol": "ELEFANT",
-      "grade": "F",
-      "vid": 92875
-    },
-    {
-      "symbol": "PAPERHANDS",
-      "grade": "F",
-      "vid": 92874
-    },
-    {
-      "symbol": "THEBLOOP",
-      "grade": "F",
-      "vid": 92873
-    },
-    {
-      "symbol": "DICE",
-      "grade": "F",
-      "vid": 92872
-    },
-    {
-      "symbol": "ORBITB20",
-      "grade": "F",
-      "vid": 92871
-    },
-    {
-      "symbol": "VINTEDGATE",
-      "grade": "F",
-      "vid": 92870
-    },
-    {
-      "symbol": "ORBT",
-      "grade": "F",
-      "vid": 92869
-    },
-    {
-      "symbol": "ULTRAWORKR",
-      "grade": "F",
-      "vid": 92865
-    },
-    {
-      "symbol": "MONOS",
-      "grade": "F",
-      "vid": 92868
+      "vid": 93151
     }
   ],
-  "per_day": 346,
-  "top_deployer_count": 2343,
-  "top_deployer_pct": 52.1,
+  "per_day": 333,
+  "top_deployer_count": 2418,
+  "top_deployer_pct": 51.8,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 14,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-25T00:20:20.347390+00:00",
+  "generated_at": "2026-06-26T00:20:20.297783+00:00",
   "specimen": {
     "vid": 91723,
     "name": "FIFA-Token",
