@@ -1,119 +1,119 @@
 {
-  "total": 4664,
+  "total": 4860,
   "grade_dist": {
     "A": 0,
-    "B": 0,
-    "C": 19,
-    "D": 839,
-    "F": 3806
+    "B": 1,
+    "C": 20,
+    "D": 848,
+    "F": 3991
   },
   "failure_pct": 99.6,
-  "c_count": 19,
-  "ab_count": 0,
-  "cleared_c": 19,
+  "c_count": 20,
+  "ab_count": 1,
+  "cleared_c": 21,
   "cleared_a": 0,
-  "graded_24h": 171,
+  "graded_24h": 196,
   "recent": [
     {
-      "symbol": "PIONER",
+      "symbol": "ACRE",
       "grade": "F",
-      "vid": 93169
+      "vid": 93482
     },
     {
-      "symbol": "PIONER",
+      "symbol": "GROVE",
       "grade": "F",
-      "vid": 93168
+      "vid": 93481
     },
     {
-      "symbol": "PIONER",
+      "symbol": "RUSH",
       "grade": "F",
-      "vid": 93167
+      "vid": 93480
     },
     {
-      "symbol": "PIONER",
+      "symbol": "TRECHRUSH",
       "grade": "F",
-      "vid": 93166
+      "vid": 93479
     },
     {
-      "symbol": "PIONER",
+      "symbol": "XMOBILE",
       "grade": "F",
-      "vid": 93165
+      "vid": 93478
     },
     {
-      "symbol": "PIONER",
+      "symbol": "CARDORA",
       "grade": "F",
-      "vid": 93164
+      "vid": 93477
     },
     {
-      "symbol": "PIONER",
+      "symbol": "KORRA",
       "grade": "F",
-      "vid": 93163
+      "vid": 93476
     },
     {
-      "symbol": "PIONER",
+      "symbol": "SPCX69",
       "grade": "F",
-      "vid": 93162
+      "vid": 93475
     },
     {
-      "symbol": "PIONER",
+      "symbol": "APX",
       "grade": "F",
-      "vid": 93161
+      "vid": 93474
     },
     {
-      "symbol": "HERMES",
+      "symbol": "NOVA",
       "grade": "F",
-      "vid": 93159
+      "vid": 93473
     },
     {
-      "symbol": "UNIBASE",
+      "symbol": "BOBWATER",
       "grade": "F",
-      "vid": 93158
+      "vid": 93472
     },
     {
-      "symbol": "WORLDCUP",
+      "symbol": "GAKE",
       "grade": "F",
-      "vid": 93157
+      "vid": 93471
     },
     {
-      "symbol": "HB",
-      "grade": "D",
-      "vid": 93150
-    },
-    {
-      "symbol": "PEAKS",
+      "symbol": "CHAMELEON",
       "grade": "F",
-      "vid": 93155
+      "vid": 93470
     },
     {
-      "symbol": "WXPL",
+      "symbol": "QUANTPAD",
       "grade": "F",
-      "vid": 93154
+      "vid": 93469
     },
     {
-      "symbol": "DEBOT",
-      "grade": "D",
-      "vid": 93151
+      "symbol": "TOTS",
+      "grade": "F",
+      "vid": 93467
+    },
+    {
+      "symbol": "DEAF",
+      "grade": "F",
+      "vid": 93466
     }
   ],
-  "per_day": 333,
-  "top_deployer_count": 2418,
-  "top_deployer_pct": 51.8,
+  "per_day": 324,
+  "top_deployer_count": 2526,
+  "top_deployer_pct": 52.0,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 14,
+  "sixtyday_count": 16,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-26T00:20:20.297783+00:00",
+  "generated_at": "2026-06-27T00:20:08.312685+00:00",
   "specimen": {
-    "vid": 91723,
-    "name": "FIFA-Token",
-    "symbol": "FIFA",
-    "grade": "C",
-    "composite": 69.8,
-    "config": 60,
-    "creator": 95,
-    "presence": 50,
+    "vid": 93437,
+    "name": "Xoggai",
+    "symbol": "XOGG",
+    "grade": "B",
+    "composite": 74.0,
+    "config": 85,
+    "creator": 50,
+    "presence": 90,
     "sniper_tax": true,
     "sixtyday_lock": true,
-    "launched_at": "2026-06-22T16:38:27.000Z"
+    "launched_at": "2026-06-26T22:35:19.000Z"
   }
 }
