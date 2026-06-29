@@ -1,108 +1,108 @@
 {
-  "total": 5082,
+  "total": 5273,
   "grade_dist": {
     "A": 0,
     "B": 1,
     "C": 20,
-    "D": 861,
-    "F": 4200
+    "D": 882,
+    "F": 4370
   },
   "failure_pct": 99.6,
   "c_count": 20,
   "ab_count": 1,
   "cleared_c": 21,
   "cleared_a": 0,
-  "graded_24h": 222,
+  "graded_24h": 191,
   "recent": [
     {
-      "symbol": "VALORA",
+      "symbol": "AURORIA",
       "grade": "F",
-      "vid": 93843
+      "vid": 94156
     },
     {
-      "symbol": "VALORA",
+      "symbol": "MICROTRADE",
       "grade": "F",
-      "vid": 93842
+      "vid": 94155
     },
     {
-      "symbol": "VALORA",
+      "symbol": "HYRE",
       "grade": "F",
-      "vid": 93841
+      "vid": 94152
     },
     {
-      "symbol": "VALORA",
+      "symbol": "NOBLEHACKR",
       "grade": "F",
-      "vid": 93840
+      "vid": 94151
     },
     {
-      "symbol": "XXX",
-      "grade": "F",
-      "vid": 93839
-    },
-    {
-      "symbol": "CYBER",
-      "grade": "F",
-      "vid": 93838
-    },
-    {
-      "symbol": "B20",
-      "grade": "F",
-      "vid": 93837
-    },
-    {
-      "symbol": "B20",
-      "grade": "F",
-      "vid": 93836
-    },
-    {
-      "symbol": "B20",
-      "grade": "F",
-      "vid": 93160
-    },
-    {
-      "symbol": "B20",
-      "grade": "F",
-      "vid": 93832
-    },
-    {
-      "symbol": "B20",
-      "grade": "F",
-      "vid": 93830
-    },
-    {
-      "symbol": "TRM",
-      "grade": "F",
-      "vid": 93828
-    },
-    {
-      "symbol": "UNO",
-      "grade": "F",
-      "vid": 93737
-    },
-    {
-      "symbol": "RADIANT",
-      "grade": "F",
-      "vid": 85080
-    },
-    {
-      "symbol": "CYN",
-      "grade": "F",
-      "vid": 93825
-    },
-    {
-      "symbol": "ANTSEED",
+      "symbol": "DRAFTOR",
       "grade": "D",
-      "vid": 93824
+      "vid": 94146
+    },
+    {
+      "symbol": "MULTIPLIER",
+      "grade": "D",
+      "vid": 94145
+    },
+    {
+      "symbol": "MAKECHAIN",
+      "grade": "F",
+      "vid": 94143
+    },
+    {
+      "symbol": "TRADEWITHA",
+      "grade": "F",
+      "vid": 94141
+    },
+    {
+      "symbol": "B20",
+      "grade": "D",
+      "vid": 94119
+    },
+    {
+      "symbol": "TERMIXOS",
+      "grade": "F",
+      "vid": 94138
+    },
+    {
+      "symbol": "AGENT47",
+      "grade": "F",
+      "vid": 94136
+    },
+    {
+      "symbol": "STOCK",
+      "grade": "D",
+      "vid": 94130
+    },
+    {
+      "symbol": "MEMEK",
+      "grade": "F",
+      "vid": 94128
+    },
+    {
+      "symbol": "ACI",
+      "grade": "F",
+      "vid": 93800
+    },
+    {
+      "symbol": "KS",
+      "grade": "F",
+      "vid": 93251
+    },
+    {
+      "symbol": "ORCH",
+      "grade": "F",
+      "vid": 94124
     }
   ],
-  "per_day": 318,
-  "top_deployer_count": 2621,
-  "top_deployer_pct": 51.6,
+  "per_day": 310,
+  "top_deployer_count": 2640,
+  "top_deployer_pct": 50.1,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 16,
+  "sixtyday_count": 18,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-28T00:20:20.306410+00:00",
+  "generated_at": "2026-06-29T00:20:20.293721+00:00",
   "specimen": {
     "vid": 93437,
     "name": "Xoggai",
