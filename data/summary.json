@@ -1,108 +1,108 @@
 {
-  "total": 5273,
+  "total": 5401,
   "grade_dist": {
     "A": 0,
     "B": 1,
-    "C": 20,
-    "D": 882,
-    "F": 4370
+    "C": 21,
+    "D": 902,
+    "F": 4477
   },
   "failure_pct": 99.6,
-  "c_count": 20,
+  "c_count": 21,
   "ab_count": 1,
-  "cleared_c": 21,
+  "cleared_c": 22,
   "cleared_a": 0,
-  "graded_24h": 191,
+  "graded_24h": 128,
   "recent": [
     {
-      "symbol": "AURORIA",
+      "symbol": "BTC",
       "grade": "F",
-      "vid": 94156
+      "vid": 84230
     },
     {
-      "symbol": "MICROTRADE",
+      "symbol": "ANSEM",
       "grade": "F",
-      "vid": 94155
+      "vid": 94423
     },
     {
-      "symbol": "HYRE",
+      "symbol": "BTCR",
+      "grade": "C",
+      "vid": 94416
+    },
+    {
+      "symbol": "RICHARD",
       "grade": "F",
-      "vid": 94152
+      "vid": 94417
     },
     {
-      "symbol": "NOBLEHACKR",
+      "symbol": "KLEO",
       "grade": "F",
-      "vid": 94151
+      "vid": 94413
     },
     {
-      "symbol": "DRAFTOR",
-      "grade": "D",
-      "vid": 94146
-    },
-    {
-      "symbol": "MULTIPLIER",
-      "grade": "D",
-      "vid": 94145
-    },
-    {
-      "symbol": "MAKECHAIN",
+      "symbol": "DEEP",
       "grade": "F",
-      "vid": 94143
+      "vid": 94409
     },
     {
-      "symbol": "TRADEWITHA",
+      "symbol": "TR",
       "grade": "F",
-      "vid": 94141
+      "vid": 94402
+    },
+    {
+      "symbol": "BERYLPAD",
+      "grade": "F",
+      "vid": 94401
     },
     {
       "symbol": "B20",
-      "grade": "D",
-      "vid": 94119
-    },
-    {
-      "symbol": "TERMIXOS",
       "grade": "F",
-      "vid": 94138
+      "vid": 94400
     },
     {
-      "symbol": "AGENT47",
+      "symbol": "CEL",
       "grade": "F",
-      "vid": 94136
+      "vid": 94399
     },
     {
-      "symbol": "STOCK",
-      "grade": "D",
-      "vid": 94130
-    },
-    {
-      "symbol": "MEMEK",
+      "symbol": "KISMET",
       "grade": "F",
-      "vid": 94128
+      "vid": 94397
     },
     {
-      "symbol": "ACI",
+      "symbol": "KISMET",
       "grade": "F",
-      "vid": 93800
+      "vid": 94396
     },
     {
-      "symbol": "KS",
+      "symbol": "KISMET",
       "grade": "F",
-      "vid": 93251
+      "vid": 94395
     },
     {
-      "symbol": "ORCH",
+      "symbol": "ANSEM",
       "grade": "F",
-      "vid": 94124
+      "vid": 94392
+    },
+    {
+      "symbol": "INFINIG",
+      "grade": "F",
+      "vid": 94391
+    },
+    {
+      "symbol": "GEOFRAMEAG",
+      "grade": "F",
+      "vid": 94390
     }
   ],
-  "per_day": 310,
-  "top_deployer_count": 2640,
-  "top_deployer_pct": 50.1,
+  "per_day": 300,
+  "top_deployer_count": 2657,
+  "top_deployer_pct": 49.2,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 18,
+  "sixtyday_count": 20,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-06-29T00:20:20.293721+00:00",
+  "generated_at": "2026-06-30T00:20:20.331606+00:00",
   "specimen": {
     "vid": 93437,
     "name": "Xoggai",

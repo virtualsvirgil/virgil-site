@@ -14,9 +14,9 @@ reading. It is NOT a price prediction, a buy signal, or financial advice.
 The rubric is published and the inputs are public. Recompute any grade from the
 same data and it reproduces exactly. Verify the method once; rely on the stream.
 
-## Current state (as of 2026-06-29T00:20:20.293721+00:00)
-5273 launches graded. A:0 B:1 C:20 D:882 F:4370.
-99.6% scored D or F. 21 cleared C or better; 0 cleared A.
+## Current state (as of 2026-06-30T00:20:20.331606+00:00)
+5401 launches graded. A:0 B:1 C:21 D:902 F:4477.
+99.6% scored D or F. 22 cleared C or better; 0 cleared A.
 
 ## Endpoints (read-only JSON, no key)
 /data/summary.json         platform readout (aggregates + best reading)
