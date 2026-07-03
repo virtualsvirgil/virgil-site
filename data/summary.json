@@ -1,108 +1,108 @@
 {
-  "total": 5768,
+  "total": 5935,
   "grade_dist": {
     "A": 0,
     "B": 1,
     "C": 22,
-    "D": 947,
-    "F": 4798
+    "D": 960,
+    "F": 4952
   },
   "failure_pct": 99.6,
   "c_count": 22,
   "ab_count": 1,
   "cleared_c": 23,
   "cleared_a": 0,
-  "graded_24h": 235,
+  "graded_24h": 167,
   "recent": [
     {
-      "symbol": "YCLAW",
+      "symbol": "SOULS",
       "grade": "F",
-      "vid": 95048
+      "vid": 76872
     },
     {
-      "symbol": "RUN",
+      "symbol": "GLIPPY",
       "grade": "F",
-      "vid": 95045
+      "vid": 95847
     },
     {
-      "symbol": "BULLRUN",
-      "grade": "F",
-      "vid": 95043
+      "symbol": "ASTRA",
+      "grade": "D",
+      "vid": 95846
     },
     {
-      "symbol": "PALM",
+      "symbol": "MERRYMEN",
       "grade": "F",
-      "vid": 95041
+      "vid": 95842
     },
     {
-      "symbol": "THET",
+      "symbol": "MM",
       "grade": "F",
-      "vid": 95039
+      "vid": 95839
     },
     {
-      "symbol": "PRISMAX",
+      "symbol": "SM",
       "grade": "F",
-      "vid": 95038
+      "vid": 95836
     },
     {
-      "symbol": "ARCUS",
+      "symbol": "KINGSFORD",
       "grade": "F",
-      "vid": 95036
+      "vid": 95835
     },
     {
-      "symbol": "HEIST",
+      "symbol": "HOOD",
       "grade": "F",
-      "vid": 95035
+      "vid": 95834
     },
     {
-      "symbol": "VELLUM",
+      "symbol": "PLANB",
       "grade": "F",
-      "vid": 95034
+      "vid": 95833
     },
     {
-      "symbol": "THET",
+      "symbol": "GRASSCAM",
       "grade": "F",
-      "vid": 95033
+      "vid": 95832
     },
     {
-      "symbol": "AIVEXA",
+      "symbol": "ROBOSTRATEGY",
       "grade": "F",
-      "vid": 95032
+      "vid": 95826
     },
     {
-      "symbol": "REVID",
+      "symbol": "CUB",
       "grade": "F",
-      "vid": 95030
+      "vid": 95812
     },
     {
-      "symbol": "SYNCLANGS",
+      "symbol": "HOODKITTY",
       "grade": "F",
-      "vid": 95028
+      "vid": 95810
     },
     {
-      "symbol": "ORBISCRIBE",
+      "symbol": "WB20",
       "grade": "F",
-      "vid": 95027
+      "vid": 95807
     },
     {
-      "symbol": "GALXE",
+      "symbol": "RWAGMI",
       "grade": "F",
-      "vid": 95026
+      "vid": 95716
     },
     {
-      "symbol": "LUBU",
+      "symbol": "CAROLIN",
       "grade": "F",
-      "vid": 95024
+      "vid": 95806
     }
   ],
-  "per_day": 288,
-  "top_deployer_count": 2778,
-  "top_deployer_pct": 48.2,
+  "per_day": 283,
+  "top_deployer_count": 2832,
+  "top_deployer_pct": 47.7,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 22,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-02T00:20:14.068415+00:00",
+  "generated_at": "2026-07-03T00:20:20.296705+00:00",
   "specimen": {
     "vid": 93437,
     "name": "Xoggai",
