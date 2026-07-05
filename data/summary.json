@@ -1,108 +1,108 @@
 {
-  "total": 6202,
+  "total": 6386,
   "grade_dist": {
     "A": 0,
     "B": 1,
     "C": 23,
-    "D": 988,
-    "F": 5190
+    "D": 994,
+    "F": 5368
   },
   "failure_pct": 99.6,
   "c_count": 23,
   "ab_count": 1,
   "cleared_c": 24,
   "cleared_a": 0,
-  "graded_24h": 267,
+  "graded_24h": 184,
   "recent": [
     {
-      "symbol": "LMRA",
+      "symbol": "MNXFI",
       "grade": "F",
-      "vid": 96592
+      "vid": 97411
     },
     {
-      "symbol": "HOODPOSTER",
+      "symbol": "BRIAN",
       "grade": "F",
-      "vid": 96591
+      "vid": 97410
     },
     {
-      "symbol": "MRAT",
+      "symbol": "TONG",
       "grade": "F",
-      "vid": 96586
+      "vid": 97409
     },
     {
-      "symbol": "MELETIC",
+      "symbol": "MANLET",
       "grade": "F",
-      "vid": 96585
+      "vid": 97401
     },
     {
-      "symbol": "WALTERS",
+      "symbol": "METAWINERS",
       "grade": "F",
-      "vid": 96583
+      "vid": 97406
     },
     {
-      "symbol": "CAPT",
+      "symbol": "FD",
       "grade": "F",
-      "vid": 96580
+      "vid": 97394
     },
     {
-      "symbol": "XDOF",
-      "grade": "F",
-      "vid": 96579
+      "symbol": "GG",
+      "grade": "D",
+      "vid": 97393
     },
     {
-      "symbol": "PIZZO",
-      "grade": "F",
-      "vid": 96575
+      "symbol": "GG",
+      "grade": "D",
+      "vid": 97392
     },
     {
-      "symbol": "VHOOD",
+      "symbol": "CREDIO",
       "grade": "F",
-      "vid": 96570
+      "vid": 97390
     },
     {
-      "symbol": "NYAX",
+      "symbol": "RIDEMARKET",
       "grade": "F",
-      "vid": 96568
+      "vid": 97389
     },
     {
-      "symbol": "DEEPS",
-      "grade": "F",
-      "vid": 96566
+      "symbol": "YTF",
+      "grade": "D",
+      "vid": 97380
     },
     {
-      "symbol": "BULLHOOD",
-      "grade": "F",
-      "vid": 96564
+      "symbol": "W",
+      "grade": "D",
+      "vid": 97378
     },
     {
-      "symbol": "ORPICH",
+      "symbol": "NOMA",
       "grade": "F",
-      "vid": 96563
+      "vid": 97374
     },
     {
-      "symbol": "BULLHOOD",
-      "grade": "F",
-      "vid": 96562
+      "symbol": "MAESTRO",
+      "grade": "D",
+      "vid": 97360
     },
     {
-      "symbol": "XRPS",
+      "symbol": "YELLBOT",
       "grade": "F",
-      "vid": 96560
+      "vid": 97326
     },
     {
-      "symbol": "BULL",
+      "symbol": "FACE",
       "grade": "F",
-      "vid": 96558
+      "vid": 97324
     }
   ],
-  "per_day": 282,
-  "top_deployer_count": 2905,
-  "top_deployer_pct": 46.8,
+  "per_day": 278,
+  "top_deployer_count": 2936,
+  "top_deployer_pct": 46.0,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 24,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-04T00:20:20.308517+00:00",
+  "generated_at": "2026-07-05T00:20:20.337307+00:00",
   "specimen": {
     "vid": 93437,
     "name": "Xoggai",
