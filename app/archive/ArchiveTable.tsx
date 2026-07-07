@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 type Row = {
   id: number; name: string; symbol: string; grade: string; composite: number;
   lc: number; ch: number; pr: number; wallet: string; at: string;
+  pre_token?: string | null;
 };
 const ORDER = ["A", "B", "C", "D", "F"];
 
@@ -50,7 +51,7 @@ export default function ArchiveTable(
     let out = rows.filter((r) => {
       if (grades.size && !grades.has(r.grade)) return false;
       if (needle) {
-        const hay = `${r.symbol} ${r.name} ${r.wallet}`.toLowerCase();
+        const hay = `${r.symbol} ${r.name} ${r.wallet} ${r.pre_token ?? ""}`.toLowerCase();
         if (!hay.includes(needle)) return false;
       }
       return true;
@@ -77,7 +78,7 @@ export default function ArchiveTable(
       <div className="arch-bar">
         <input
           className="arch-search mono"
-          placeholder="Search ticker, name, or deployer wallet…"
+          placeholder="Search ticker, name, deployer, or contract…"
           value={q}
           onChange={(e) => setQ(e.target.value)}
         />
@@ -114,7 +115,7 @@ export default function ArchiveTable(
             <tr>
               <th>Grade</th><th>Ticker</th><th>Launch</th>
               <th>Score</th><th>Cfg</th><th>Cr</th><th>Pr</th>
-              <th>Deployer</th><th>Date</th>
+              <th>Deployer</th><th>Contract</th><th>Date</th>
             </tr>
           </thead>
           <tbody>
@@ -128,6 +129,10 @@ export default function ArchiveTable(
                 <td>{r.composite.toFixed(1)}</td>
                 <td>{r.lc}</td><td>{r.ch}</td><td>{r.pr}</td>
                 <td title={r.wallet}>{short(r.wallet)}</td>
+                <td>{r.pre_token
+                  ? <a className="arch-tkr" href={`https://basescan.org/token/${r.pre_token}`}
+                       target="_blank" rel="noopener noreferrer" title={r.pre_token}>{short(r.pre_token)}</a>
+                  : <span title="pre-coverage — contract not preserved for retrospective entries">—</span>}</td>
                 <td>{r.at.slice(0, 10)}</td>
               </tr>
             ))}

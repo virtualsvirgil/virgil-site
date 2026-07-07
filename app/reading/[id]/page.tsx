@@ -12,6 +12,7 @@ type Reading = {
   status: string; sniper_tax: boolean; sixtyday_lock: boolean;
   capital_formation: boolean; launch_radar: boolean; verified: boolean;
   twitter: string | null;
+  pre_token?: string | null; token_address?: string | null;
   subscores: Record<string, Record<string, LineItem>>; narrative: string | null;
   retrospective?: boolean;
 };
@@ -152,6 +153,7 @@ export default async function ReadingPage({ params }: { params: Promise<{ id: st
         {/* metadata */}
         <div className="rp-meta">
           <div className="rp-meta-row"><span className="rp-meta-k mono">Deployer</span><span className="rp-meta-v mono">{r.wallet}</span></div>
+          {r.pre_token && <div className="rp-meta-row"><span className="rp-meta-k mono">Contract</span><span className="rp-meta-v mono"><a href={`https://basescan.org/token/${r.pre_token}`} target="_blank" rel="noopener noreferrer">{r.pre_token}</a></span></div>}
           <div className="rp-meta-row"><span className="rp-meta-k mono">Launched</span><span className="rp-meta-v mono">{fmt(r.at)}</span></div>
           <div className="rp-meta-row"><span className="rp-meta-k mono">Graded</span><span className="rp-meta-v mono">{fmt(r.scored_at)}</span></div>
           {r.twitter && <div className="rp-meta-row"><span className="rp-meta-k mono">Declared X</span><span className="rp-meta-v mono">@{r.twitter}</span></div>}
