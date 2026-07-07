@@ -1,108 +1,108 @@
 {
-  "total": 6554,
+  "total": 6727,
   "grade_dist": {
     "A": 0,
     "B": 1,
-    "C": 23,
-    "D": 1002,
-    "F": 5528
+    "C": 25,
+    "D": 1027,
+    "F": 5674
   },
   "failure_pct": 99.6,
-  "c_count": 23,
+  "c_count": 25,
   "ab_count": 1,
-  "cleared_c": 24,
+  "cleared_c": 26,
   "cleared_a": 0,
-  "graded_24h": 168,
+  "graded_24h": 173,
   "recent": [
     {
-      "symbol": "FARM",
+      "symbol": "USDT",
       "grade": "F",
-      "vid": 97934
+      "vid": 98513
     },
     {
-      "symbol": "ICON",
+      "symbol": "USDT",
       "grade": "F",
-      "vid": 97932
+      "vid": 98512
     },
     {
-      "symbol": "HIIMCRYPTO",
+      "symbol": "USDT",
       "grade": "F",
-      "vid": 97476
+      "vid": 98501
     },
     {
-      "symbol": "PLOTZ",
+      "symbol": "USDT",
       "grade": "F",
-      "vid": 97931
+      "vid": 98506
     },
     {
-      "symbol": "SHIR0",
+      "symbol": "PEAKS",
       "grade": "F",
-      "vid": 97926
+      "vid": 98487
     },
     {
-      "symbol": "SICODER",
+      "symbol": "PEAKS",
       "grade": "F",
-      "vid": 97925
+      "vid": 98486
     },
     {
-      "symbol": "ABS",
+      "symbol": "INTERFOLD",
       "grade": "F",
-      "vid": 97918
+      "vid": 98478
     },
     {
-      "symbol": "WHIRL",
+      "symbol": "AEF0AEEF0",
       "grade": "F",
-      "vid": 97917
+      "vid": 98471
     },
     {
-      "symbol": "REMOCN",
-      "grade": "F",
-      "vid": 97912
+      "symbol": "DATRICS",
+      "grade": "D",
+      "vid": 98469
     },
     {
-      "symbol": "MFLY",
+      "symbol": "ROBOTICA",
       "grade": "F",
-      "vid": 97911
+      "vid": 98466
     },
     {
-      "symbol": "CIMARU",
+      "symbol": "AGENT",
       "grade": "F",
-      "vid": 97909
+      "vid": 98463
     },
     {
-      "symbol": "DORKLORD",
+      "symbol": "AGENT",
       "grade": "F",
-      "vid": 97905
+      "vid": 98462
     },
     {
-      "symbol": "UPSI",
+      "symbol": "AGENT",
       "grade": "F",
-      "vid": 97904
+      "vid": 98461
     },
     {
-      "symbol": "TRY",
+      "symbol": "AGENT",
       "grade": "F",
-      "vid": 97903
+      "vid": 98460
     },
     {
-      "symbol": "DAVE",
+      "symbol": "AGENT",
       "grade": "F",
-      "vid": 97902
+      "vid": 98459
     },
     {
-      "symbol": "AICO",
+      "symbol": "AGENT",
       "grade": "F",
-      "vid": 97901
+      "vid": 98458
     }
   ],
-  "per_day": 273,
-  "top_deployer_count": 2972,
-  "top_deployer_pct": 45.3,
+  "per_day": 259,
+  "top_deployer_count": 3009,
+  "top_deployer_pct": 44.7,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 24,
+  "sixtyday_count": 26,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-06T00:20:20.309979+00:00",
+  "generated_at": "2026-07-07T00:20:20.700832+00:00",
   "specimen": {
     "vid": 93437,
     "name": "Xoggai",
