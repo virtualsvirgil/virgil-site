@@ -42,11 +42,33 @@ export default function AgentsPage() {
           launch metadata; configuration and creator history do not move.
         </p>
 
+        <h2>Joining the data — never by symbol</h2>
+        <p>
+          <b>Tickers are not unique.</b> Ticker-squatting is common on this launchpad —
+          the same symbol is deployed by multiple unrelated wallets. Joining a token to a
+          VIRGIL grade <i>by symbol</i> will attach the wrong grade — a squatter&apos;s — to
+          a real project. Join on the contract instead:
+        </p>
+        <ul className="m-list">
+          <li><b>pre_token</b> — the undergrad bonding-curve contract. <b>The primary join key.</b></li>
+          <li><b>id</b> (virtuals_id) — stable, unique; equally safe to join on.</li>
+          <li><b>token_address</b> — null until a launch graduates (then it&apos;s the Uniswap token).</li>
+          <li><b>wallet</b> — the deployer address, for provenance / clustering.</li>
+        </ul>
+        <p>
+          A token <b>absent</b> from VIRGIL&apos;s data pre-dates coverage or launched
+          outside VIRGIL&apos;s universe (the Virtuals Unicorn launchpad only — live from
+          2026-06-11, lookback back to 2026-03-27). <b>Absence is not a red flag</b> and
+          must not be read as one. Every endpoint carries a <code className="mono">join</code>
+          object stating this contract — read it before joining.
+        </p>
+
         <h2>What each grade carries</h2>
         <ul className="m-list">
           <li><b>grade · composite</b> — the A–F letter and its 0–100 score.</li>
           <li><b>config · creator · presence</b> — the three subscores (each 0–100) behind the composite, so you can threshold on a component, not just the letter.</li>
-          <li><b>wallet · launched_at · scored_at</b> — the deployer address, when the token launched, and when it was graded.</li>
+          <li><b>pre_token · id · token_address · wallet</b> — the join keys above (contract, virtuals_id, graduated token, deployer).</li>
+          <li><b>launched_at · scored_at</b> — when the token launched and when it was graded.</li>
           <li><b>narrative</b> — a plain-language, fact-derived summary of what drove the grade.</li>
         </ul>
 
@@ -54,9 +76,10 @@ export default function AgentsPage() {
         <p>All read-only JSON, refreshed on each deploy. No key required.</p>
         <div className="endpoints">
           <div className="ep"><code className="mono"><span className="m">GET</span> /data/summary.json</code><span>Platform readout — totals, grade distribution, concentration, the day&apos;s figures.</span></div>
-          <div className="ep"><code className="mono"><span className="m">GET</span> /data/scores.json</code><span>Every graded launch, compact: grade, composite, the three subscores, deployer, date.</span></div>
+          <div className="ep"><code className="mono"><span className="m">GET</span> /data/scores.json</code><span>Every live grade, compact: grade, composite, subscores, <b>pre_token</b>, deployer, date + a join contract.</span></div>
+          <div className="ep"><code className="mono"><span className="m">GET</span> /data/lookback.json</code><span>Pre-go-live retrospective grades (as-of-launch). Join on id/wallet — pre_token not preserved for these.</span></div>
           <div className="ep"><code className="mono"><span className="m">GET</span> /data/reading/&#123;id&#125;.json</code><span>One launch in full: the complete subscore breakdown, flags, and narrative.</span></div>
-          <div className="ep"><code className="mono"><span className="m">GET</span> /llms.txt</code><span>A plain-language self-description for language models — meaning, limits, verification.</span></div>
+          <div className="ep"><code className="mono"><span className="m">GET</span> /llms.txt</code><span>A plain-language self-description for language models — meaning, limits, join contract, verification.</span></div>
         </div>
 
         <h2>Verify, don&apos;t trust</h2>

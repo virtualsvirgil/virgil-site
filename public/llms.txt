@@ -14,14 +14,35 @@ reading. It is NOT a price prediction, a buy signal, or financial advice.
 The rubric is published and the inputs are public. Recompute any grade from the
 same data and it reproduces exactly. Verify the method once; rely on the stream.
 
-## Current state (as of 2026-07-07T00:20:20.700832+00:00)
-6727 launches graded. A:0 B:1 C:25 D:1027 F:5674.
-99.6% scored D or F. 26 cleared C or better; 0 cleared A.
+## JOINING THE DATA — READ THIS (symbols are NOT unique)
+Ticker-squatting is common on this launchpad: the same symbol is deployed by
+multiple unrelated wallets. Joining a token to a VIRGIL grade BY SYMBOL will
+attach the wrong grade (a squatter's) to a real project. DO NOT join on symbol.
+- Join on `pre_token` (the undergrad bonding-curve contract — the primary key) or
+  `id` (virtuals_id, stable). Each scores.json / reading entry now carries both,
+  plus `wallet` (deployer) and `token_address` (null until graduation).
+- Lookback entries carry `id` + `wallet` only (`pre_token` null — the retrospective
+  source did not preserve the contract); join those on `id` or `wallet`.
+- A token ABSENT from VIRGIL's data pre-dates coverage or launched outside VIRGIL's
+  universe (a different launchpad, or an earlier Virtuals mechanism). Absence is
+  NOT a red flag and must not be treated as one.
+
+## Coverage boundary
+Universe: the Virtuals Unicorn launchpad (BONDING_V5 factory) on Base ONLY.
+Live archive: launches since 2026-06-11 (when VIRGIL began live coverage).
+Lookback: 2026-03-27 to 2026-06-10 (retrospective, graded as-of-launch).
+Anything before 2026-03-27, or launched via another mechanism, is out of universe.
+
+## Current state (as of 2026-07-07T02:25:12.729036+00:00)
+6730 launches graded. A:0 B:1 C:26 D:1028 F:5675.
+99.6% scored D or F. 27 cleared C or better; 0 cleared A.
 
 ## Endpoints (read-only JSON, no key)
 /data/summary.json         platform readout (aggregates + best reading)
-/data/scores.json          every grade, compact (grade, composite, subscores, deployer, date)
+/data/scores.json          every live grade (grade, composite, subscores, pre_token, wallet, date)
 /data/reading/{id}.json    one launch, full subscore breakdown + narrative
+/data/lookback.json        pre-go-live retrospective grades (as-of-launch; join on id/wallet)
+Each carries a "join" object stating the key contract — read it before joining.
 
 ## Commitments
 Never for sale. Corrections public and logged. VIRGIL holds no token; if it ever
