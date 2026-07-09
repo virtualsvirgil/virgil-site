@@ -1,108 +1,108 @@
 {
-  "total": 6829,
+  "total": 6934,
   "grade_dist": {
     "A": 0,
     "B": 1,
-    "C": 27,
-    "D": 1038,
-    "F": 5763
+    "C": 28,
+    "D": 1043,
+    "F": 5862
   },
   "failure_pct": 99.6,
-  "c_count": 27,
+  "c_count": 28,
   "ab_count": 1,
-  "cleared_c": 28,
+  "cleared_c": 29,
   "cleared_a": 0,
-  "graded_24h": 102,
+  "graded_24h": 105,
   "recent": [
     {
-      "symbol": "SOLRAFLARE",
+      "symbol": "SIGMA",
       "grade": "F",
-      "vid": 99123
+      "vid": 100080
     },
     {
-      "symbol": "SOLRAFLARE",
+      "symbol": "BAYC",
       "grade": "F",
-      "vid": 99119
+      "vid": 100077
     },
     {
-      "symbol": "ROBIDY",
-      "grade": "F",
-      "vid": 99115
+      "symbol": "SRFB",
+      "grade": "C",
+      "vid": 99124
     },
     {
-      "symbol": "ORCHAD",
+      "symbol": "PASSIV",
       "grade": "F",
-      "vid": 99110
+      "vid": 100061
     },
     {
-      "symbol": "KHOOD",
+      "symbol": "SHERIFFB20",
       "grade": "F",
-      "vid": 99105
+      "vid": 100059
     },
     {
-      "symbol": "INVEST",
+      "symbol": "BASE",
       "grade": "F",
-      "vid": 99098
+      "vid": 100055
     },
     {
-      "symbol": "NMRCY",
+      "symbol": "BASE",
       "grade": "F",
-      "vid": 99088
+      "vid": 100054
     },
     {
-      "symbol": "HOODMER",
+      "symbol": "BASE",
       "grade": "F",
-      "vid": 92753
+      "vid": 100051
     },
     {
-      "symbol": "CLANKERHOOD",
+      "symbol": "B20",
       "grade": "F",
-      "vid": 99031
+      "vid": 100047
     },
     {
-      "symbol": "SPIRITAI",
+      "symbol": "B20",
       "grade": "F",
-      "vid": 99026
+      "vid": 100045
     },
     {
-      "symbol": "POVERTY",
-      "grade": "D",
-      "vid": 99017
+      "symbol": "TJOKER",
+      "grade": "F",
+      "vid": 100035
     },
     {
-      "symbol": "REGENT",
+      "symbol": "SWARMHOOD",
       "grade": "F",
-      "vid": 99001
+      "vid": 100019
     },
     {
-      "symbol": "ATXP",
+      "symbol": "TRNCH",
       "grade": "F",
-      "vid": 98997
+      "vid": 100012
     },
     {
-      "symbol": "BOW",
+      "symbol": "ROBINHOODSCAN",
       "grade": "F",
-      "vid": 98996
+      "vid": 100003
     },
     {
-      "symbol": "ZAYTUNE",
+      "symbol": "ROBINHOODASCAN",
       "grade": "F",
-      "vid": 98992
+      "vid": 100002
     },
     {
-      "symbol": "OCTRA",
+      "symbol": "REALWORLDS",
       "grade": "F",
-      "vid": 98990
+      "vid": 99992
     }
   ],
-  "per_day": 263,
-  "top_deployer_count": 3039,
-  "top_deployer_pct": 44.5,
+  "per_day": 257,
+  "top_deployer_count": 3099,
+  "top_deployer_pct": 44.7,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 27,
+  "sixtyday_count": 29,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-08T00:20:20.344472+00:00",
+  "generated_at": "2026-07-09T00:20:00.649998+00:00",
   "specimen": {
     "vid": 93437,
     "name": "Xoggai",
