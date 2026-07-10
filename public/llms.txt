@@ -33,9 +33,9 @@ Live archive: launches since 2026-06-11 (when VIRGIL began live coverage).
 Lookback: 2026-03-27 to 2026-06-10 (retrospective, graded as-of-launch).
 Anything before 2026-03-27, or launched via another mechanism, is out of universe.
 
-## Current state (as of 2026-07-09T00:20:00.649998+00:00)
-6934 launches graded. A:0 B:1 C:28 D:1043 F:5862.
-99.6% scored D or F. 29 cleared C or better; 0 cleared A.
+## Current state (as of 2026-07-10T00:20:01.276140+00:00)
+7033 launches graded. A:0 B:2 C:29 D:1051 F:5951.
+99.6% scored D or F. 31 cleared C or better; 0 cleared A.
 
 ## Endpoints (read-only JSON, no key)
 /data/summary.json         platform readout (aggregates + best reading)
