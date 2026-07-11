@@ -1,108 +1,108 @@
 {
-  "total": 7033,
+  "total": 7105,
   "grade_dist": {
     "A": 0,
     "B": 2,
     "C": 29,
-    "D": 1051,
-    "F": 5951
+    "D": 1061,
+    "F": 6013
   },
   "failure_pct": 99.6,
   "c_count": 29,
   "ab_count": 2,
   "cleared_c": 31,
   "cleared_a": 0,
-  "graded_24h": 99,
+  "graded_24h": 72,
   "recent": [
     {
-      "symbol": "COCKROACH",
+      "symbol": "CRASHCAT",
       "grade": "F",
-      "vid": 100884
+      "vid": 101680
     },
     {
-      "symbol": "SPED",
+      "symbol": "DBT",
       "grade": "F",
-      "vid": 100882
+      "vid": 95723
     },
     {
-      "symbol": "PAXTER",
+      "symbol": "KITTY",
       "grade": "F",
-      "vid": 100880
+      "vid": 101489
     },
     {
-      "symbol": "HOODLAD",
+      "symbol": "SPIDERROBO",
       "grade": "F",
-      "vid": 100878
+      "vid": 101475
     },
     {
-      "symbol": "CLOUD",
+      "symbol": "COIPLOTBOT",
       "grade": "F",
-      "vid": 100877
+      "vid": 101470
     },
     {
-      "symbol": "GOAT",
+      "symbol": "PEOPLESCOU",
+      "grade": "F",
+      "vid": 101462
+    },
+    {
+      "symbol": "BUTER",
+      "grade": "F",
+      "vid": 101461
+    },
+    {
+      "symbol": "VIRTUALS",
+      "grade": "F",
+      "vid": 101452
+    },
+    {
+      "symbol": "ORCHAD",
+      "grade": "F",
+      "vid": 101431
+    },
+    {
+      "symbol": "0XB20",
+      "grade": "F",
+      "vid": 101430
+    },
+    {
+      "symbol": "FARLO",
+      "grade": "F",
+      "vid": 101409
+    },
+    {
+      "symbol": "SHISHIOSLA",
       "grade": "D",
-      "vid": 100862
+      "vid": 101393
     },
     {
-      "symbol": "BLUSK",
+      "symbol": "MAIAT",
       "grade": "F",
-      "vid": 100860
+      "vid": 101388
     },
     {
-      "symbol": "BLUE",
+      "symbol": "BAXIA",
       "grade": "F",
-      "vid": 100858
+      "vid": 101378
     },
     {
-      "symbol": "T",
+      "symbol": "BAXIA",
       "grade": "F",
-      "vid": 100857
+      "vid": 101375
     },
     {
-      "symbol": "GRAB",
+      "symbol": "PEPEHOOD",
       "grade": "F",
-      "vid": 100854
-    },
-    {
-      "symbol": "BCGAME",
-      "grade": "F",
-      "vid": 100848
-    },
-    {
-      "symbol": "VELL",
-      "grade": "F",
-      "vid": 100847
-    },
-    {
-      "symbol": "ARIES",
-      "grade": "F",
-      "vid": 100821
-    },
-    {
-      "symbol": "KVNG",
-      "grade": "F",
-      "vid": 100683
-    },
-    {
-      "symbol": "GR8KR0WN",
-      "grade": "F",
-      "vid": 100678
-    },
-    {
-      "symbol": "ARTF",
-      "grade": "B",
-      "vid": 84566
+      "vid": 101374
     }
   ],
-  "per_day": 227,
-  "top_deployer_count": 3147,
-  "top_deployer_pct": 44.7,
+  "per_day": 229,
+  "top_deployer_count": 3164,
+  "top_deployer_pct": 44.5,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 31,
+  "sixtyday_count": 32,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-10T00:20:01.276140+00:00",
+  "generated_at": "2026-07-11T00:20:17.929211+00:00",
   "specimen": {
     "vid": 84566,
     "name": "ARTEFACT",
