@@ -1,108 +1,108 @@
 {
-  "total": 7105,
+  "total": 7182,
   "grade_dist": {
     "A": 0,
     "B": 2,
-    "C": 29,
-    "D": 1061,
-    "F": 6013
+    "C": 30,
+    "D": 1066,
+    "F": 6084
   },
   "failure_pct": 99.6,
-  "c_count": 29,
+  "c_count": 30,
   "ab_count": 2,
-  "cleared_c": 31,
+  "cleared_c": 32,
   "cleared_a": 0,
-  "graded_24h": 72,
+  "graded_24h": 77,
   "recent": [
     {
-      "symbol": "CRASHCAT",
+      "symbol": "WAYSTAR",
       "grade": "F",
-      "vid": 101680
+      "vid": 103424
     },
     {
-      "symbol": "DBT",
+      "symbol": "WAYSTAR",
       "grade": "F",
-      "vid": 95723
+      "vid": 103421
     },
     {
-      "symbol": "KITTY",
+      "symbol": "WAYSTAR",
       "grade": "F",
-      "vid": 101489
+      "vid": 103420
     },
     {
-      "symbol": "SPIDERROBO",
+      "symbol": "WAYSTAR",
       "grade": "F",
-      "vid": 101475
+      "vid": 103418
     },
     {
-      "symbol": "COIPLOTBOT",
+      "symbol": "SEEDCOIN",
       "grade": "F",
-      "vid": 101470
+      "vid": 103414
     },
     {
-      "symbol": "PEOPLESCOU",
+      "symbol": "ELONAI",
       "grade": "F",
-      "vid": 101462
+      "vid": 103399
     },
     {
-      "symbol": "BUTER",
+      "symbol": "AXPIUS",
       "grade": "F",
-      "vid": 101461
+      "vid": 103377
     },
     {
-      "symbol": "VIRTUALS",
+      "symbol": "TENEV",
       "grade": "F",
-      "vid": 101452
+      "vid": 102908
     },
     {
-      "symbol": "ORCHAD",
+      "symbol": "JOEY",
       "grade": "F",
-      "vid": 101431
+      "vid": 103307
     },
     {
-      "symbol": "0XB20",
+      "symbol": "FORGELOCKER",
       "grade": "F",
-      "vid": 101430
+      "vid": 103248
     },
     {
-      "symbol": "FARLO",
+      "symbol": "FORGELOCKER",
       "grade": "F",
-      "vid": 101409
+      "vid": 103246
     },
     {
-      "symbol": "SHISHIOSLA",
+      "symbol": "NOXATOKEN",
       "grade": "D",
-      "vid": 101393
+      "vid": 103203
     },
     {
-      "symbol": "MAIAT",
+      "symbol": "NUTSY",
       "grade": "F",
-      "vid": 101388
+      "vid": 103146
     },
     {
-      "symbol": "BAXIA",
-      "grade": "F",
-      "vid": 101378
+      "symbol": "GSB",
+      "grade": "D",
+      "vid": 103122
     },
     {
-      "symbol": "BAXIA",
+      "symbol": "ANIMEVLADTENEV",
       "grade": "F",
-      "vid": 101375
+      "vid": 103108
     },
     {
-      "symbol": "PEPEHOOD",
+      "symbol": "ROBINHOD",
       "grade": "F",
-      "vid": 101374
+      "vid": 103093
     }
   ],
-  "per_day": 229,
-  "top_deployer_count": 3164,
-  "top_deployer_pct": 44.5,
+  "per_day": 232,
+  "top_deployer_count": 3208,
+  "top_deployer_pct": 44.7,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 32,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-11T00:20:17.929211+00:00",
+  "generated_at": "2026-07-12T00:20:17.957267+00:00",
   "specimen": {
     "vid": 84566,
     "name": "ARTEFACT",
