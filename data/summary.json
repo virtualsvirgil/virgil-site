@@ -1,108 +1,108 @@
 {
-  "total": 7182,
+  "total": 7265,
   "grade_dist": {
     "A": 0,
     "B": 2,
     "C": 30,
-    "D": 1066,
-    "F": 6084
+    "D": 1079,
+    "F": 6154
   },
   "failure_pct": 99.6,
   "c_count": 30,
   "ab_count": 2,
   "cleared_c": 32,
   "cleared_a": 0,
-  "graded_24h": 77,
+  "graded_24h": 83,
   "recent": [
     {
-      "symbol": "WAYSTAR",
+      "symbol": "GLITCHCAT",
       "grade": "F",
-      "vid": 103424
+      "vid": 104975
     },
     {
-      "symbol": "WAYSTAR",
+      "symbol": "HASBILLAN",
       "grade": "F",
-      "vid": 103421
+      "vid": 104967
     },
     {
-      "symbol": "WAYSTAR",
+      "symbol": "HBD",
       "grade": "F",
-      "vid": 103420
+      "vid": 104963
     },
     {
-      "symbol": "WAYSTAR",
+      "symbol": "STARSONHOOD",
       "grade": "F",
-      "vid": 103418
+      "vid": 104950
     },
     {
-      "symbol": "SEEDCOIN",
+      "symbol": "GROWTHX",
       "grade": "F",
-      "vid": 103414
+      "vid": 104948
     },
     {
-      "symbol": "ELONAI",
-      "grade": "F",
-      "vid": 103399
-    },
-    {
-      "symbol": "AXPIUS",
-      "grade": "F",
-      "vid": 103377
-    },
-    {
-      "symbol": "TENEV",
-      "grade": "F",
-      "vid": 102908
-    },
-    {
-      "symbol": "JOEY",
-      "grade": "F",
-      "vid": 103307
-    },
-    {
-      "symbol": "FORGELOCKER",
-      "grade": "F",
-      "vid": 103248
-    },
-    {
-      "symbol": "FORGELOCKER",
-      "grade": "F",
-      "vid": 103246
-    },
-    {
-      "symbol": "NOXATOKEN",
+      "symbol": "TRADINGBOT",
       "grade": "D",
-      "vid": 103203
+      "vid": 104903
     },
     {
-      "symbol": "NUTSY",
+      "symbol": "MULTITASKA",
       "grade": "F",
-      "vid": 103146
+      "vid": 104874
     },
     {
-      "symbol": "GSB",
+      "symbol": "GHOST",
       "grade": "D",
-      "vid": 103122
+      "vid": 104854
     },
     {
-      "symbol": "ANIMEVLADTENEV",
-      "grade": "F",
-      "vid": 103108
+      "symbol": "SIGNAL",
+      "grade": "D",
+      "vid": 104789
     },
     {
-      "symbol": "ROBINHOD",
+      "symbol": "KAPTAN",
       "grade": "F",
-      "vid": 103093
+      "vid": 104775
+    },
+    {
+      "symbol": "13",
+      "grade": "F",
+      "vid": 104734
+    },
+    {
+      "symbol": "RSC",
+      "grade": "F",
+      "vid": 104730
+    },
+    {
+      "symbol": "BUSK",
+      "grade": "F",
+      "vid": 104716
+    },
+    {
+      "symbol": "BANK",
+      "grade": "F",
+      "vid": 104691
+    },
+    {
+      "symbol": "FLAT",
+      "grade": "F",
+      "vid": 104681
+    },
+    {
+      "symbol": "SCAMCATMAN",
+      "grade": "D",
+      "vid": 104647
     }
   ],
-  "per_day": 232,
-  "top_deployer_count": 3208,
-  "top_deployer_pct": 44.7,
+  "per_day": 234,
+  "top_deployer_count": 3264,
+  "top_deployer_pct": 44.9,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
-  "sixtyday_count": 32,
+  "sixtyday_count": 33,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-12T00:20:17.957267+00:00",
+  "generated_at": "2026-07-13T00:20:18.406965+00:00",
   "specimen": {
     "vid": 84566,
     "name": "ARTEFACT",
