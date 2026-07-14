@@ -1,108 +1,108 @@
 {
-  "total": 7265,
+  "total": 7341,
   "grade_dist": {
     "A": 0,
     "B": 2,
     "C": 30,
-    "D": 1079,
-    "F": 6154
+    "D": 1083,
+    "F": 6226
   },
   "failure_pct": 99.6,
   "c_count": 30,
   "ab_count": 2,
   "cleared_c": 32,
   "cleared_a": 0,
-  "graded_24h": 83,
+  "graded_24h": 76,
   "recent": [
     {
-      "symbol": "GLITCHCAT",
+      "symbol": "KLIRK",
       "grade": "F",
-      "vid": 104975
+      "vid": 106736
     },
     {
-      "symbol": "HASBILLAN",
+      "symbol": "TOADS",
       "grade": "F",
-      "vid": 104967
+      "vid": 106732
     },
     {
-      "symbol": "HBD",
+      "symbol": "AUCTRA",
       "grade": "F",
-      "vid": 104963
+      "vid": 106692
     },
     {
-      "symbol": "STARSONHOOD",
+      "symbol": "HASHCASH",
       "grade": "F",
-      "vid": 104950
+      "vid": 106652
     },
     {
-      "symbol": "GROWTHX",
+      "symbol": "HOODBLUES",
       "grade": "F",
-      "vid": 104948
+      "vid": 106415
     },
     {
-      "symbol": "TRADINGBOT",
-      "grade": "D",
-      "vid": 104903
-    },
-    {
-      "symbol": "MULTITASKA",
+      "symbol": "CARDS",
       "grade": "F",
-      "vid": 104874
+      "vid": 99866
     },
     {
-      "symbol": "GHOST",
-      "grade": "D",
-      "vid": 104854
-    },
-    {
-      "symbol": "SIGNAL",
-      "grade": "D",
-      "vid": 104789
-    },
-    {
-      "symbol": "KAPTAN",
+      "symbol": "VEILBOT",
       "grade": "F",
-      "vid": 104775
+      "vid": 106399
     },
     {
-      "symbol": "13",
+      "symbol": "XBOW",
       "grade": "F",
-      "vid": 104734
+      "vid": 106329
     },
     {
-      "symbol": "RSC",
+      "symbol": "VERMETRICS",
       "grade": "F",
-      "vid": 104730
+      "vid": 106179
     },
     {
-      "symbol": "BUSK",
+      "symbol": "VVVALEN",
       "grade": "F",
-      "vid": 104716
+      "vid": 98894
     },
     {
-      "symbol": "BANK",
+      "symbol": "VAI",
       "grade": "F",
-      "vid": 104691
+      "vid": 106250
     },
     {
-      "symbol": "FLAT",
+      "symbol": "SIDE",
       "grade": "F",
-      "vid": 104681
+      "vid": 106274
     },
     {
-      "symbol": "SCAMCATMAN",
-      "grade": "D",
-      "vid": 104647
+      "symbol": "SIDE",
+      "grade": "F",
+      "vid": 106267
+    },
+    {
+      "symbol": "SIDE",
+      "grade": "F",
+      "vid": 106261
+    },
+    {
+      "symbol": "SIDE",
+      "grade": "F",
+      "vid": 106260
+    },
+    {
+      "symbol": "SIDE",
+      "grade": "F",
+      "vid": 106174
     }
   ],
-  "per_day": 234,
-  "top_deployer_count": 3264,
-  "top_deployer_pct": 44.9,
+  "per_day": 229,
+  "top_deployer_count": 3305,
+  "top_deployer_pct": 45.0,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 33,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-13T00:20:18.406965+00:00",
+  "generated_at": "2026-07-14T00:20:17.949668+00:00",
   "specimen": {
     "vid": 84566,
     "name": "ARTEFACT",
