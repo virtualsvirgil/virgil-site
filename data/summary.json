@@ -1,108 +1,108 @@
 {
-  "total": 7410,
+  "total": 7463,
   "grade_dist": {
     "A": 0,
     "B": 2,
     "C": 31,
-    "D": 1093,
-    "F": 6284
+    "D": 1095,
+    "F": 6335
   },
   "failure_pct": 99.6,
   "c_count": 31,
   "ab_count": 2,
   "cleared_c": 33,
   "cleared_a": 0,
-  "graded_24h": 69,
+  "graded_24h": 53,
   "recent": [
     {
-      "symbol": "TOFUCHAN",
+      "symbol": "HLDAO",
       "grade": "F",
-      "vid": 108353
+      "vid": 110387
     },
     {
-      "symbol": "CLAWDTV",
+      "symbol": "RPUNK",
       "grade": "F",
-      "vid": 108342
+      "vid": 110361
     },
     {
-      "symbol": "BASKEN",
+      "symbol": "ROBINPUNK",
       "grade": "F",
-      "vid": 108333
+      "vid": 110359
     },
     {
-      "symbol": "HOODIES",
+      "symbol": "PUMPHOOD",
       "grade": "F",
-      "vid": 108331
+      "vid": 110269
     },
     {
-      "symbol": "SHIRTWIN",
+      "symbol": "RRQ",
       "grade": "F",
-      "vid": 108329
+      "vid": 109771
     },
     {
-      "symbol": "MEOWSTER",
+      "symbol": "ZDAROVE",
       "grade": "F",
-      "vid": 108324
+      "vid": 110105
     },
     {
-      "symbol": "HELVET",
+      "symbol": "CHEF",
       "grade": "F",
-      "vid": 108083
+      "vid": 90774
     },
     {
-      "symbol": "GURU",
-      "grade": "D",
-      "vid": 108310
+      "symbol": "KARAKROSS",
+      "grade": "F",
+      "vid": 110091
     },
     {
-      "symbol": "VOID",
+      "symbol": "KARAKROSS",
       "grade": "F",
-      "vid": 105597
+      "vid": 110089
     },
     {
-      "symbol": "REVENANT",
+      "symbol": "HOODDROP",
       "grade": "F",
-      "vid": 107986
+      "vid": 110063
     },
     {
-      "symbol": "INSTINC",
+      "symbol": "1K",
       "grade": "F",
-      "vid": 107974
+      "vid": 110011
     },
     {
-      "symbol": "SFOX",
+      "symbol": "GLASS",
       "grade": "F",
-      "vid": 107963
+      "vid": 109987
     },
     {
-      "symbol": "MOL",
+      "symbol": "UPONLY",
       "grade": "F",
-      "vid": 107867
+      "vid": 109935
     },
     {
-      "symbol": "BLIND",
+      "symbol": "DOG",
       "grade": "F",
-      "vid": 107865
+      "vid": 109933
     },
     {
-      "symbol": "TRADINGBOT",
+      "symbol": "CLVR",
       "grade": "F",
-      "vid": 107848
+      "vid": 109845
     },
     {
-      "symbol": "CASHCAT",
+      "symbol": "RAIL",
       "grade": "F",
-      "vid": 107778
+      "vid": 107957
     }
   ],
-  "per_day": 225,
-  "top_deployer_count": 3345,
-  "top_deployer_pct": 45.1,
+  "per_day": 220,
+  "top_deployer_count": 3372,
+  "top_deployer_pct": 45.2,
   "top_deployer_wallet": "0x384d92776496bce2c6f08d5b8e015eae498e78b3",
   "sixtyday_count": 33,
   "first_launch": "2026-06-11T16:15:41.000Z",
   "rubric_version": "1.1",
-  "generated_at": "2026-07-15T00:20:18.727416+00:00",
+  "generated_at": "2026-07-16T00:20:17.970664+00:00",
   "specimen": {
     "vid": 84566,
     "name": "ARTEFACT",
